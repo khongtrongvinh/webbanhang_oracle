@@ -1,0 +1,32 @@
+﻿@model WepSiteBanHang.Models.NhaSanXuat
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Areas/Admin/Views/LayoutAD/AdinLayout.cshtml";
+}
+
+<h2>Chi tiết</h2>
+
+<div>
+   
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayName("Tên nhà sản xuất")
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TenNSX)
+        </dd>
+
+
+       
+
+        
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Sửa", "Edit", new { id = Model.MaNSX }) |
+    @Html.ActionLink("Quay trở lại", "Index")
+</p>

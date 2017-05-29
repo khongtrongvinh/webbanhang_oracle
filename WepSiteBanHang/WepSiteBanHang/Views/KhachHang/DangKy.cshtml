@@ -1,0 +1,72 @@
+﻿<script src='https://www.google.com/recaptcha/api.js'></script>
+<div class="form">
+    <h2>Tạo Tài Khoản</h2>
+    <form action="#" method="post" id="demo">
+        <input type="text" name="Username" placeholder="Nhập Tài Khoản" required=" ">
+        <input type="password" name="Password" placeholder="Nhập Mật Khẩu" required=" ">
+        <input type="email" name="Email" placeholder="Email Address" required=" ">
+        <input type="text" name="Phone" placeholder="Số Điện Thoại" required=" ">
+        <input type="text" name="hoten" placeholder="Họ Tên" required=" ">
+        <input type="text" name="diachi" placeholder="Địa Chỉ" required=" ">
+
+        <div class="g-recaptcha" data-sitekey="6LcA1wsUAAAAAFjamjGvtMfKLFbAO8SN5R5wMzG0"></div>
+        <input type="submit" value="Đăng Ký">
+    </form>
+</div>
+<script src="~/Scripts/jquery-1.11.1.min.js"></script>
+<script src="~/Scripts/jquery.validate.min.js"></script>
+<script src="~/Scripts/jquery.validate.js"></script>
+<script type="text/javascript">
+
+    $(document).ready(function () {
+
+        $("#demo").validate({
+            rules: {
+                Username: "required",
+                Password: {
+                    required: true,
+                    minlength: 5,
+                },
+                hoten: "required",
+
+                Phone: {
+                    required: true,
+                    number: true,
+                    maxlength: 11,
+                },
+                diachi: {
+                    required: true,
+                    minlength: 2
+                },
+                Email: {
+                    required: true,
+                    email: true
+                },
+            },
+            messages: {
+                Username: "Vui lòng nhập Tài Khoản",
+                Password: {
+                    required: "Vui lòng nhập Password",
+                    minlength: "Mật Khẩu Quá ít",
+
+                },
+                hoten: "Vui lòng nhập Họ Tên",
+                Phone: {
+                    required: "Vui lòng nhập số điện thoại",
+                    maxlength: "Số máy quý khách vừa nhập là số không có thực",
+                    number: "Không đươc để Kí Hiệu hoặc chữ "
+                },
+                diachi: {
+                    required: "Vui lòng nhập địa chỉ",
+                    minlength: "Địa chỉ ngắn vậy"
+                },
+                Email: {
+                    required: "Vui Lòng Nhập Mail",
+                    minlength: "Mail Không có thực",
+                },
+
+
+            }
+        });
+    });
+</script>

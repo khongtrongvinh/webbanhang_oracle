@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="240a6bdf48dd4beca1d62167df2a4064" Name="Diagram1">
+        <EntityTypeShape EntityType="Model.BINHLUAN" Width="1.5" PointX="3" PointY="11.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.CHITIETDONDATHANG" Width="1.5" PointX="5.25" PointY="2" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.CHITIETPHIEUNHAP" Width="1.5" PointX="5.25" PointY="7.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.DONDATHANG" Width="1.5" PointX="3" PointY="14.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.KHACHHANG" Width="1.5" PointX="3" PointY="21.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.LIENHE" Width="1.5" PointX="7.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.LOAISANPHAM" Width="1.5" PointX="0.75" PointY="4" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.LOAITHANHVIEN" Width="1.5" PointX="1.5" PointY="18.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.NHACUNGCAP" Width="1.5" PointX="0.75" PointY="7" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.NHASANXUAT" Width="1.5" PointX="0.75" PointY="10.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.PHIEUNHAP" Width="1.5" PointX="3" PointY="7.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.QUANLY" Width="1.5" PointX="7.75" PointY="7.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.SANPHAM" Width="1.5" PointX="3" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.THANHVIEN" Width="1.5" PointX="0.75" PointY="13.75" IsExpanded="true" />
+        <AssociationConnector Association="Model.BINHLUAN_FK1" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.CHITIETDONDATHANG_FK1" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.CHITIETDONDATHANG_FK2" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.CHITIETPHIEUNHAP_FK1" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.CHITIETPHIEUNHAP_FK2" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.DONDATHANG_FK1" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.KHACHHANG_FK1" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.SANPHAM_FK3" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.THANHVIEN_FK1" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.PHIEUNHAP_NHACC_FK" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.SANPHAM_FK1" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.SANPHAM_FK2" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

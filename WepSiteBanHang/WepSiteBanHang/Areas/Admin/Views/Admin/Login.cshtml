@@ -1,0 +1,48 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Login form using HTML5 and CSS3</title>
+
+
+
+    <link rel="stylesheet" href="~/Content/LayoutAD/css/style.css">
+
+
+</head>
+<body>
+
+    <div class="container">
+        <section id="content">
+
+            <h1>ĐĂNG NHẬP</h1>
+            @using (Html.BeginForm())
+            {
+                @Html.ValidationSummary(true)
+                <div>
+                    <input type="text" placeholder="Tài khoản" name="taikhoan" required="" id="username">
+                 
+
+                </div>
+                <div>
+                    <input type="password" placeholder="Mật khẩu" name="" required="" id="password">
+
+                </div>
+                <div>
+                    <input type="submit" value="Đăng nhập">
+
+                </div>
+            }<!-- form -->
+
+        </section><!-- content -->
+
+    </div><!-- container -->
+    <script src="~/Content/LayoutAD/js/index.js"></script>
+</body>
+</html>

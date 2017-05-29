@@ -1,0 +1,581 @@
+C:\Users\Admin\Desktop\DACN\WepSiteBanHang\WepSiteBanHang\bin\roslyn\csc.exe
+C:\Users\Admin\Desktop\DACN\WepSiteBanHang\WepSiteBanHang\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Admin\Desktop\DACN\WepSiteBanHang\WepSiteBanHang\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Admin\Desktop\DACN\WepSiteBanHang\WepSiteBanHang\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Admin\Desktop\DACN\WepSiteBanHang\WepSiteBanHang\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Admin\Desktop\DACN\WepSiteBanHang\WepSiteBanHang\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Admin\Desktop\DACN\WepSiteBanHang\WepSiteBanHang\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Admin\Desktop\DACN\WepSiteBanHang\WepSiteBanHang\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Admin\Desktop\DACN\WepSiteBanHang\WepSiteBanHang\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Admin\Desktop\DACN\WepSiteBanHang\WepSiteBanHang\bin\roslyn\vbc.exe
+C:\Users\Admin\Desktop\DACN\WepSiteBanHang\WepSiteBanHang\bin\roslyn\VBCSCompiler.exe
+C:\Users\Admin\Desktop\DACN\WepSiteBanHang\WepSiteBanHang\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Admin\Desktop\DACN\WepSiteBanHang\WepSiteBanHang\bin\WepSiteBanHang.dll.config
+C:\Users\Admin\Desktop\DACN\WepSiteBanHang\WepSiteBanHang\bin\WepSiteBanHang.dll
+C:\Users\Admin\Desktop\DACN\WepSiteBanHang\WepSiteBanHang\bin\WepSiteBanHang.pdb
+C:\Users\Admin\Desktop\DACN\WepSiteBanHang\WepSiteBanHang\bin\Antlr3.Runtime.dll
+C:\Users\Admin\Desktop\DACN\WepSiteBanHang\WepSiteBanHang\bin\EntityFramework.dll
+C:\Users\Admin\Desktop\DACN\WepSiteBanHang\WepSiteBanHang\bin\EntityFramework.SqlServer.dll
+C:\Users\Admin\Desktop\DACN\WepSiteBanHang\WepSiteBanHang\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Admin\Desktop\DACN\WepSiteBanHang\WepSiteBanHang\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Admin\Desktop\DACN\WepSiteBanHang\WepSiteBanHang\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Admin\Desktop\DACN\WepSiteBanHang\WepSiteBanHang\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Admin\Desktop\DACN\WepSiteBanHang\WepSiteBanHang\bin\Microsoft.Owin.dll
+C:\Users\Admin\Desktop\DACN\WepSiteBanHang\WepSiteBanHang\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Admin\Desktop\DACN\WepSiteBanHang\WepSiteBanHang\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Admin\Desktop\DACN\WepSiteBanHang\WepSiteBanHang\bin\Microsoft.Owin.Security.dll
+C:\Users\Admin\Desktop\DACN\WepSiteBanHang\WepSiteBanHang\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Admin\Desktop\DACN\WepSiteBanHang\WepSiteBanHang\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Admin\Desktop\DACN\WepSiteBanHang\WepSiteBanHang\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Admin\Desktop\DACN\WepSiteBanHang\WepSiteBanHang\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Admin\Desktop\DACN\WepSiteBanHang\WepSiteBanHang\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Admin\Desktop\DACN\WepSiteBanHang\WepSiteBanHang\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Admin\Desktop\DACN\WepSiteBanHang\WepSiteBanHang\bin\Newtonsoft.Json.dll
+C:\Users\Admin\Desktop\DACN\WepSiteBanHang\WepSiteBanHang\bin\Owin.dll
+C:\Users\Admin\Desktop\DACN\WepSiteBanHang\WepSiteBanHang\bin\System.Web.Helpers.dll
+C:\Users\Admin\Desktop\DACN\WepSiteBanHang\WepSiteBanHang\bin\System.Web.Mvc.dll
+C:\Users\Admin\Desktop\DACN\WepSiteBanHang\WepSiteBanHang\bin\System.Web.Optimization.dll
+C:\Users\Admin\Desktop\DACN\WepSiteBanHang\WepSiteBanHang\bin\System.Web.Razor.dll
+C:\Users\Admin\Desktop\DACN\WepSiteBanHang\WepSiteBanHang\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Admin\Desktop\DACN\WepSiteBanHang\WepSiteBanHang\bin\System.Web.WebPages.dll
+C:\Users\Admin\Desktop\DACN\WepSiteBanHang\WepSiteBanHang\bin\System.Web.WebPages.Razor.dll
+C:\Users\Admin\Desktop\DACN\WepSiteBanHang\WepSiteBanHang\bin\WebGrease.dll
+C:\Users\Admin\Desktop\DACN\WepSiteBanHang\WepSiteBanHang\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Admin\Desktop\DACN\WepSiteBanHang\WepSiteBanHang\bin\System.Web.Helpers.xml
+C:\Users\Admin\Desktop\DACN\WepSiteBanHang\WepSiteBanHang\bin\System.Web.Mvc.xml
+C:\Users\Admin\Desktop\DACN\WepSiteBanHang\WepSiteBanHang\bin\System.Web.Optimization.xml
+C:\Users\Admin\Desktop\DACN\WepSiteBanHang\WepSiteBanHang\bin\System.Web.Razor.xml
+C:\Users\Admin\Desktop\DACN\WepSiteBanHang\WepSiteBanHang\bin\System.Web.WebPages.xml
+C:\Users\Admin\Desktop\DACN\WepSiteBanHang\WepSiteBanHang\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Admin\Desktop\DACN\WepSiteBanHang\WepSiteBanHang\bin\System.Web.WebPages.Razor.xml
+C:\Users\Admin\Desktop\DACN\WepSiteBanHang\WepSiteBanHang\bin\Antlr3.Runtime.pdb
+C:\Users\Admin\Desktop\DACN\WepSiteBanHang\WepSiteBanHang\bin\Newtonsoft.Json.xml
+C:\Users\Admin\Desktop\DACN\WepSiteBanHang\WepSiteBanHang\bin\EntityFramework.xml
+C:\Users\Admin\Desktop\DACN\WepSiteBanHang\WepSiteBanHang\bin\EntityFramework.SqlServer.xml
+C:\Users\Admin\Desktop\DACN\WepSiteBanHang\WepSiteBanHang\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Admin\Desktop\DACN\WepSiteBanHang\WepSiteBanHang\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Admin\Desktop\DACN\WepSiteBanHang\WepSiteBanHang\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Admin\Desktop\DACN\WepSiteBanHang\WepSiteBanHang\bin\Microsoft.Owin.xml
+C:\Users\Admin\Desktop\DACN\WepSiteBanHang\WepSiteBanHang\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Admin\Desktop\DACN\WepSiteBanHang\WepSiteBanHang\bin\Microsoft.Owin.Security.xml
+C:\Users\Admin\Desktop\DACN\WepSiteBanHang\WepSiteBanHang\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Admin\Desktop\DACN\WepSiteBanHang\WepSiteBanHang\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Admin\Desktop\DACN\WepSiteBanHang\WepSiteBanHang\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Admin\Desktop\DACN\WepSiteBanHang\WepSiteBanHang\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Admin\Desktop\DACN\WepSiteBanHang\WepSiteBanHang\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Admin\Desktop\DACN\WepSiteBanHang\WepSiteBanHang\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Admin\Desktop\DACN\WepSiteBanHang\WepSiteBanHang\obj\Debug\WepSiteBanHang.csprojResolveAssemblyReference.cache
+C:\Users\Admin\Desktop\DACN\WepSiteBanHang\WepSiteBanHang\obj\Debug\WepSiteBanHang.dll
+C:\Users\Admin\Desktop\DACN\WepSiteBanHang\WepSiteBanHang\obj\Debug\WepSiteBanHang.pdb
+F:\DACN\DACN\-n-CN\WepSiteBanHang\WepSiteBanHang\obj\Debug\WepSiteBanHang.dll
+F:\DACN\DACN\-n-CN\WepSiteBanHang\WepSiteBanHang\obj\Debug\WepSiteBanHang.pdb
+F:\DACN\DACN\-n-CN\WepSiteBanHang\WepSiteBanHang\bin\roslyn\csc.exe
+F:\DACN\DACN\-n-CN\WepSiteBanHang\WepSiteBanHang\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+F:\DACN\DACN\-n-CN\WepSiteBanHang\WepSiteBanHang\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+F:\DACN\DACN\-n-CN\WepSiteBanHang\WepSiteBanHang\bin\roslyn\Microsoft.CodeAnalysis.dll
+F:\DACN\DACN\-n-CN\WepSiteBanHang\WepSiteBanHang\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+F:\DACN\DACN\-n-CN\WepSiteBanHang\WepSiteBanHang\bin\roslyn\Microsoft.CSharp.Core.targets
+F:\DACN\DACN\-n-CN\WepSiteBanHang\WepSiteBanHang\bin\roslyn\Microsoft.VisualBasic.Core.targets
+F:\DACN\DACN\-n-CN\WepSiteBanHang\WepSiteBanHang\bin\roslyn\System.Collections.Immutable.dll
+F:\DACN\DACN\-n-CN\WepSiteBanHang\WepSiteBanHang\bin\roslyn\System.Reflection.Metadata.dll
+F:\DACN\DACN\-n-CN\WepSiteBanHang\WepSiteBanHang\bin\roslyn\vbc.exe
+F:\DACN\DACN\-n-CN\WepSiteBanHang\WepSiteBanHang\bin\roslyn\VBCSCompiler.exe
+F:\DACN\DACN\-n-CN\WepSiteBanHang\WepSiteBanHang\bin\roslyn\VBCSCompiler.exe.config
+F:\DACN\DACN\-n-CN\WepSiteBanHang\WepSiteBanHang\bin\WepSiteBanHang.dll.config
+F:\DACN\DACN\-n-CN\WepSiteBanHang\WepSiteBanHang\bin\WepSiteBanHang.dll
+F:\DACN\DACN\-n-CN\WepSiteBanHang\WepSiteBanHang\bin\WepSiteBanHang.pdb
+F:\DACN\DACN\-n-CN\WepSiteBanHang\WepSiteBanHang\bin\Antlr3.Runtime.dll
+F:\DACN\DACN\-n-CN\WepSiteBanHang\WepSiteBanHang\bin\EntityFramework.dll
+F:\DACN\DACN\-n-CN\WepSiteBanHang\WepSiteBanHang\bin\EntityFramework.SqlServer.dll
+F:\DACN\DACN\-n-CN\WepSiteBanHang\WepSiteBanHang\bin\Microsoft.AspNet.Identity.Core.dll
+F:\DACN\DACN\-n-CN\WepSiteBanHang\WepSiteBanHang\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+F:\DACN\DACN\-n-CN\WepSiteBanHang\WepSiteBanHang\bin\Microsoft.AspNet.Identity.Owin.dll
+F:\DACN\DACN\-n-CN\WepSiteBanHang\WepSiteBanHang\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+F:\DACN\DACN\-n-CN\WepSiteBanHang\WepSiteBanHang\bin\Microsoft.Owin.dll
+F:\DACN\DACN\-n-CN\WepSiteBanHang\WepSiteBanHang\bin\Microsoft.Owin.Host.SystemWeb.dll
+F:\DACN\DACN\-n-CN\WepSiteBanHang\WepSiteBanHang\bin\Microsoft.Owin.Security.Cookies.dll
+F:\DACN\DACN\-n-CN\WepSiteBanHang\WepSiteBanHang\bin\Microsoft.Owin.Security.dll
+F:\DACN\DACN\-n-CN\WepSiteBanHang\WepSiteBanHang\bin\Microsoft.Owin.Security.Facebook.dll
+F:\DACN\DACN\-n-CN\WepSiteBanHang\WepSiteBanHang\bin\Microsoft.Owin.Security.Google.dll
+F:\DACN\DACN\-n-CN\WepSiteBanHang\WepSiteBanHang\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+F:\DACN\DACN\-n-CN\WepSiteBanHang\WepSiteBanHang\bin\Microsoft.Owin.Security.OAuth.dll
+F:\DACN\DACN\-n-CN\WepSiteBanHang\WepSiteBanHang\bin\Microsoft.Owin.Security.Twitter.dll
+F:\DACN\DACN\-n-CN\WepSiteBanHang\WepSiteBanHang\bin\Microsoft.Web.Infrastructure.dll
+F:\DACN\DACN\-n-CN\WepSiteBanHang\WepSiteBanHang\bin\Newtonsoft.Json.dll
+F:\DACN\DACN\-n-CN\WepSiteBanHang\WepSiteBanHang\bin\Owin.dll
+F:\DACN\DACN\-n-CN\WepSiteBanHang\WepSiteBanHang\bin\System.Web.Helpers.dll
+F:\DACN\DACN\-n-CN\WepSiteBanHang\WepSiteBanHang\bin\System.Web.Mvc.dll
+F:\DACN\DACN\-n-CN\WepSiteBanHang\WepSiteBanHang\bin\System.Web.Optimization.dll
+F:\DACN\DACN\-n-CN\WepSiteBanHang\WepSiteBanHang\bin\System.Web.Razor.dll
+F:\DACN\DACN\-n-CN\WepSiteBanHang\WepSiteBanHang\bin\System.Web.WebPages.Deployment.dll
+F:\DACN\DACN\-n-CN\WepSiteBanHang\WepSiteBanHang\bin\System.Web.WebPages.dll
+F:\DACN\DACN\-n-CN\WepSiteBanHang\WepSiteBanHang\bin\System.Web.WebPages.Razor.dll
+F:\DACN\DACN\-n-CN\WepSiteBanHang\WepSiteBanHang\bin\WebGrease.dll
+F:\DACN\DACN\-n-CN\WepSiteBanHang\WepSiteBanHang\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+F:\DACN\DACN\-n-CN\WepSiteBanHang\WepSiteBanHang\bin\System.Web.Helpers.xml
+F:\DACN\DACN\-n-CN\WepSiteBanHang\WepSiteBanHang\bin\System.Web.Mvc.xml
+F:\DACN\DACN\-n-CN\WepSiteBanHang\WepSiteBanHang\bin\System.Web.Optimization.xml
+F:\DACN\DACN\-n-CN\WepSiteBanHang\WepSiteBanHang\bin\System.Web.Razor.xml
+F:\DACN\DACN\-n-CN\WepSiteBanHang\WepSiteBanHang\bin\System.Web.WebPages.xml
+F:\DACN\DACN\-n-CN\WepSiteBanHang\WepSiteBanHang\bin\System.Web.WebPages.Deployment.xml
+F:\DACN\DACN\-n-CN\WepSiteBanHang\WepSiteBanHang\bin\System.Web.WebPages.Razor.xml
+F:\DACN\DACN\-n-CN\WepSiteBanHang\WepSiteBanHang\bin\Antlr3.Runtime.pdb
+F:\DACN\DACN\-n-CN\WepSiteBanHang\WepSiteBanHang\bin\Newtonsoft.Json.xml
+F:\DACN\DACN\-n-CN\WepSiteBanHang\WepSiteBanHang\bin\EntityFramework.xml
+F:\DACN\DACN\-n-CN\WepSiteBanHang\WepSiteBanHang\bin\EntityFramework.SqlServer.xml
+F:\DACN\DACN\-n-CN\WepSiteBanHang\WepSiteBanHang\bin\Microsoft.AspNet.Identity.Core.xml
+F:\DACN\DACN\-n-CN\WepSiteBanHang\WepSiteBanHang\bin\Microsoft.AspNet.Identity.Owin.xml
+F:\DACN\DACN\-n-CN\WepSiteBanHang\WepSiteBanHang\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+F:\DACN\DACN\-n-CN\WepSiteBanHang\WepSiteBanHang\bin\Microsoft.Owin.xml
+F:\DACN\DACN\-n-CN\WepSiteBanHang\WepSiteBanHang\bin\Microsoft.Owin.Host.SystemWeb.xml
+F:\DACN\DACN\-n-CN\WepSiteBanHang\WepSiteBanHang\bin\Microsoft.Owin.Security.xml
+F:\DACN\DACN\-n-CN\WepSiteBanHang\WepSiteBanHang\bin\Microsoft.Owin.Security.Facebook.xml
+F:\DACN\DACN\-n-CN\WepSiteBanHang\WepSiteBanHang\bin\Microsoft.Owin.Security.Cookies.xml
+F:\DACN\DACN\-n-CN\WepSiteBanHang\WepSiteBanHang\bin\Microsoft.Owin.Security.OAuth.xml
+F:\DACN\DACN\-n-CN\WepSiteBanHang\WepSiteBanHang\bin\Microsoft.Owin.Security.Google.xml
+F:\DACN\DACN\-n-CN\WepSiteBanHang\WepSiteBanHang\bin\Microsoft.Owin.Security.Twitter.xml
+F:\DACN\DACN\-n-CN\WepSiteBanHang\WepSiteBanHang\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+F:\DACN\DACN\-n-CN\WepSiteBanHang\WepSiteBanHang\obj\Debug\WepSiteBanHang.csprojResolveAssemblyReference.cache
+D:\-n-CN-master\WepSiteBanHang\WepSiteBanHang\obj\Debug\WepSiteBanHang.csprojResolveAssemblyReference.cache
+D:\-n-CN-master\WepSiteBanHang\WepSiteBanHang\obj\Debug\WepSiteBanHang.dll
+D:\-n-CN-master\WepSiteBanHang\WepSiteBanHang\obj\Debug\WepSiteBanHang.pdb
+D:\-n-CN-master\WepSiteBanHang\WepSiteBanHang\bin\roslyn\csc.exe
+D:\-n-CN-master\WepSiteBanHang\WepSiteBanHang\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\-n-CN-master\WepSiteBanHang\WepSiteBanHang\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\-n-CN-master\WepSiteBanHang\WepSiteBanHang\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\-n-CN-master\WepSiteBanHang\WepSiteBanHang\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\-n-CN-master\WepSiteBanHang\WepSiteBanHang\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\-n-CN-master\WepSiteBanHang\WepSiteBanHang\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\-n-CN-master\WepSiteBanHang\WepSiteBanHang\bin\roslyn\System.Collections.Immutable.dll
+D:\-n-CN-master\WepSiteBanHang\WepSiteBanHang\bin\roslyn\System.Reflection.Metadata.dll
+D:\-n-CN-master\WepSiteBanHang\WepSiteBanHang\bin\roslyn\vbc.exe
+D:\-n-CN-master\WepSiteBanHang\WepSiteBanHang\bin\roslyn\VBCSCompiler.exe
+D:\-n-CN-master\WepSiteBanHang\WepSiteBanHang\bin\roslyn\VBCSCompiler.exe.config
+D:\-n-CN-master\WepSiteBanHang\WepSiteBanHang\bin\WepSiteBanHang.dll.config
+D:\-n-CN-master\WepSiteBanHang\WepSiteBanHang\bin\WepSiteBanHang.dll
+D:\-n-CN-master\WepSiteBanHang\WepSiteBanHang\bin\WepSiteBanHang.pdb
+D:\-n-CN-master\WepSiteBanHang\WepSiteBanHang\bin\Antlr3.Runtime.dll
+D:\-n-CN-master\WepSiteBanHang\WepSiteBanHang\bin\EntityFramework.dll
+D:\-n-CN-master\WepSiteBanHang\WepSiteBanHang\bin\EntityFramework.SqlServer.dll
+D:\-n-CN-master\WepSiteBanHang\WepSiteBanHang\bin\Microsoft.AspNet.Identity.Core.dll
+D:\-n-CN-master\WepSiteBanHang\WepSiteBanHang\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\-n-CN-master\WepSiteBanHang\WepSiteBanHang\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\-n-CN-master\WepSiteBanHang\WepSiteBanHang\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\-n-CN-master\WepSiteBanHang\WepSiteBanHang\bin\Microsoft.Owin.dll
+D:\-n-CN-master\WepSiteBanHang\WepSiteBanHang\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\-n-CN-master\WepSiteBanHang\WepSiteBanHang\bin\Microsoft.Owin.Security.Cookies.dll
+D:\-n-CN-master\WepSiteBanHang\WepSiteBanHang\bin\Microsoft.Owin.Security.dll
+D:\-n-CN-master\WepSiteBanHang\WepSiteBanHang\bin\Microsoft.Owin.Security.Facebook.dll
+D:\-n-CN-master\WepSiteBanHang\WepSiteBanHang\bin\Microsoft.Owin.Security.Google.dll
+D:\-n-CN-master\WepSiteBanHang\WepSiteBanHang\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\-n-CN-master\WepSiteBanHang\WepSiteBanHang\bin\Microsoft.Owin.Security.OAuth.dll
+D:\-n-CN-master\WepSiteBanHang\WepSiteBanHang\bin\Microsoft.Owin.Security.Twitter.dll
+D:\-n-CN-master\WepSiteBanHang\WepSiteBanHang\bin\Microsoft.Web.Infrastructure.dll
+D:\-n-CN-master\WepSiteBanHang\WepSiteBanHang\bin\Newtonsoft.Json.dll
+D:\-n-CN-master\WepSiteBanHang\WepSiteBanHang\bin\Owin.dll
+D:\-n-CN-master\WepSiteBanHang\WepSiteBanHang\bin\System.Web.Helpers.dll
+D:\-n-CN-master\WepSiteBanHang\WepSiteBanHang\bin\System.Web.Mvc.dll
+D:\-n-CN-master\WepSiteBanHang\WepSiteBanHang\bin\System.Web.Optimization.dll
+D:\-n-CN-master\WepSiteBanHang\WepSiteBanHang\bin\System.Web.Razor.dll
+D:\-n-CN-master\WepSiteBanHang\WepSiteBanHang\bin\System.Web.WebPages.Deployment.dll
+D:\-n-CN-master\WepSiteBanHang\WepSiteBanHang\bin\System.Web.WebPages.dll
+D:\-n-CN-master\WepSiteBanHang\WepSiteBanHang\bin\System.Web.WebPages.Razor.dll
+D:\-n-CN-master\WepSiteBanHang\WepSiteBanHang\bin\WebGrease.dll
+D:\-n-CN-master\WepSiteBanHang\WepSiteBanHang\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\-n-CN-master\WepSiteBanHang\WepSiteBanHang\bin\System.Web.Helpers.xml
+D:\-n-CN-master\WepSiteBanHang\WepSiteBanHang\bin\System.Web.Mvc.xml
+D:\-n-CN-master\WepSiteBanHang\WepSiteBanHang\bin\System.Web.Optimization.xml
+D:\-n-CN-master\WepSiteBanHang\WepSiteBanHang\bin\System.Web.Razor.xml
+D:\-n-CN-master\WepSiteBanHang\WepSiteBanHang\bin\System.Web.WebPages.xml
+D:\-n-CN-master\WepSiteBanHang\WepSiteBanHang\bin\System.Web.WebPages.Deployment.xml
+D:\-n-CN-master\WepSiteBanHang\WepSiteBanHang\bin\System.Web.WebPages.Razor.xml
+D:\-n-CN-master\WepSiteBanHang\WepSiteBanHang\bin\Antlr3.Runtime.pdb
+D:\-n-CN-master\WepSiteBanHang\WepSiteBanHang\bin\Newtonsoft.Json.xml
+D:\-n-CN-master\WepSiteBanHang\WepSiteBanHang\bin\EntityFramework.xml
+D:\-n-CN-master\WepSiteBanHang\WepSiteBanHang\bin\EntityFramework.SqlServer.xml
+D:\-n-CN-master\WepSiteBanHang\WepSiteBanHang\bin\Microsoft.AspNet.Identity.Core.xml
+D:\-n-CN-master\WepSiteBanHang\WepSiteBanHang\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\-n-CN-master\WepSiteBanHang\WepSiteBanHang\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\-n-CN-master\WepSiteBanHang\WepSiteBanHang\bin\Microsoft.Owin.xml
+D:\-n-CN-master\WepSiteBanHang\WepSiteBanHang\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\-n-CN-master\WepSiteBanHang\WepSiteBanHang\bin\Microsoft.Owin.Security.xml
+D:\-n-CN-master\WepSiteBanHang\WepSiteBanHang\bin\Microsoft.Owin.Security.Facebook.xml
+D:\-n-CN-master\WepSiteBanHang\WepSiteBanHang\bin\Microsoft.Owin.Security.Cookies.xml
+D:\-n-CN-master\WepSiteBanHang\WepSiteBanHang\bin\Microsoft.Owin.Security.OAuth.xml
+D:\-n-CN-master\WepSiteBanHang\WepSiteBanHang\bin\Microsoft.Owin.Security.Google.xml
+D:\-n-CN-master\WepSiteBanHang\WepSiteBanHang\bin\Microsoft.Owin.Security.Twitter.xml
+D:\-n-CN-master\WepSiteBanHang\WepSiteBanHang\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\-n-CN-master\WepSiteBanHang\WepSiteBanHang\bin\PagedList.dll
+D:\-n-CN-master\WepSiteBanHang\WepSiteBanHang\bin\PagedList.Mvc.dll
+D:\-n-CN-master\WepSiteBanHang\WepSiteBanHang\bin\PagedList.xml
+D:\-n-CN-master\WepSiteBanHang\WepSiteBanHang\bin\PagedList.Mvc.xml
+D:\ĐỒ ÁN CHUYÊN NGANH\-n-CN-master\WepSiteBanHang\WepSiteBanHang\bin\roslyn\csc.exe
+D:\ĐỒ ÁN CHUYÊN NGANH\-n-CN-master\WepSiteBanHang\WepSiteBanHang\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\ĐỒ ÁN CHUYÊN NGANH\-n-CN-master\WepSiteBanHang\WepSiteBanHang\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\ĐỒ ÁN CHUYÊN NGANH\-n-CN-master\WepSiteBanHang\WepSiteBanHang\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\ĐỒ ÁN CHUYÊN NGANH\-n-CN-master\WepSiteBanHang\WepSiteBanHang\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\ĐỒ ÁN CHUYÊN NGANH\-n-CN-master\WepSiteBanHang\WepSiteBanHang\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\ĐỒ ÁN CHUYÊN NGANH\-n-CN-master\WepSiteBanHang\WepSiteBanHang\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\ĐỒ ÁN CHUYÊN NGANH\-n-CN-master\WepSiteBanHang\WepSiteBanHang\bin\roslyn\System.Collections.Immutable.dll
+D:\ĐỒ ÁN CHUYÊN NGANH\-n-CN-master\WepSiteBanHang\WepSiteBanHang\bin\roslyn\System.Reflection.Metadata.dll
+D:\ĐỒ ÁN CHUYÊN NGANH\-n-CN-master\WepSiteBanHang\WepSiteBanHang\bin\roslyn\vbc.exe
+D:\ĐỒ ÁN CHUYÊN NGANH\-n-CN-master\WepSiteBanHang\WepSiteBanHang\bin\roslyn\VBCSCompiler.exe
+D:\ĐỒ ÁN CHUYÊN NGANH\-n-CN-master\WepSiteBanHang\WepSiteBanHang\bin\roslyn\VBCSCompiler.exe.config
+D:\ĐỒ ÁN CHUYÊN NGANH\-n-CN-master\WepSiteBanHang\WepSiteBanHang\bin\WepSiteBanHang.dll.config
+D:\ĐỒ ÁN CHUYÊN NGANH\-n-CN-master\WepSiteBanHang\WepSiteBanHang\bin\WepSiteBanHang.dll
+D:\ĐỒ ÁN CHUYÊN NGANH\-n-CN-master\WepSiteBanHang\WepSiteBanHang\bin\WepSiteBanHang.pdb
+D:\ĐỒ ÁN CHUYÊN NGANH\-n-CN-master\WepSiteBanHang\WepSiteBanHang\bin\Antlr3.Runtime.dll
+D:\ĐỒ ÁN CHUYÊN NGANH\-n-CN-master\WepSiteBanHang\WepSiteBanHang\bin\EntityFramework.dll
+D:\ĐỒ ÁN CHUYÊN NGANH\-n-CN-master\WepSiteBanHang\WepSiteBanHang\bin\EntityFramework.SqlServer.dll
+D:\ĐỒ ÁN CHUYÊN NGANH\-n-CN-master\WepSiteBanHang\WepSiteBanHang\bin\Microsoft.AspNet.Identity.Core.dll
+D:\ĐỒ ÁN CHUYÊN NGANH\-n-CN-master\WepSiteBanHang\WepSiteBanHang\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\ĐỒ ÁN CHUYÊN NGANH\-n-CN-master\WepSiteBanHang\WepSiteBanHang\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\ĐỒ ÁN CHUYÊN NGANH\-n-CN-master\WepSiteBanHang\WepSiteBanHang\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\ĐỒ ÁN CHUYÊN NGANH\-n-CN-master\WepSiteBanHang\WepSiteBanHang\bin\Microsoft.Owin.dll
+D:\ĐỒ ÁN CHUYÊN NGANH\-n-CN-master\WepSiteBanHang\WepSiteBanHang\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\ĐỒ ÁN CHUYÊN NGANH\-n-CN-master\WepSiteBanHang\WepSiteBanHang\bin\Microsoft.Owin.Security.Cookies.dll
+D:\ĐỒ ÁN CHUYÊN NGANH\-n-CN-master\WepSiteBanHang\WepSiteBanHang\bin\Microsoft.Owin.Security.dll
+D:\ĐỒ ÁN CHUYÊN NGANH\-n-CN-master\WepSiteBanHang\WepSiteBanHang\bin\Microsoft.Owin.Security.Facebook.dll
+D:\ĐỒ ÁN CHUYÊN NGANH\-n-CN-master\WepSiteBanHang\WepSiteBanHang\bin\Microsoft.Owin.Security.Google.dll
+D:\ĐỒ ÁN CHUYÊN NGANH\-n-CN-master\WepSiteBanHang\WepSiteBanHang\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\ĐỒ ÁN CHUYÊN NGANH\-n-CN-master\WepSiteBanHang\WepSiteBanHang\bin\Microsoft.Owin.Security.OAuth.dll
+D:\ĐỒ ÁN CHUYÊN NGANH\-n-CN-master\WepSiteBanHang\WepSiteBanHang\bin\Microsoft.Owin.Security.Twitter.dll
+D:\ĐỒ ÁN CHUYÊN NGANH\-n-CN-master\WepSiteBanHang\WepSiteBanHang\bin\Microsoft.Web.Infrastructure.dll
+D:\ĐỒ ÁN CHUYÊN NGANH\-n-CN-master\WepSiteBanHang\WepSiteBanHang\bin\Newtonsoft.Json.dll
+D:\ĐỒ ÁN CHUYÊN NGANH\-n-CN-master\WepSiteBanHang\WepSiteBanHang\bin\Owin.dll
+D:\ĐỒ ÁN CHUYÊN NGANH\-n-CN-master\WepSiteBanHang\WepSiteBanHang\bin\PagedList.dll
+D:\ĐỒ ÁN CHUYÊN NGANH\-n-CN-master\WepSiteBanHang\WepSiteBanHang\bin\PagedList.Mvc.dll
+D:\ĐỒ ÁN CHUYÊN NGANH\-n-CN-master\WepSiteBanHang\WepSiteBanHang\bin\System.Web.Helpers.dll
+D:\ĐỒ ÁN CHUYÊN NGANH\-n-CN-master\WepSiteBanHang\WepSiteBanHang\bin\System.Web.Mvc.dll
+D:\ĐỒ ÁN CHUYÊN NGANH\-n-CN-master\WepSiteBanHang\WepSiteBanHang\bin\System.Web.Optimization.dll
+D:\ĐỒ ÁN CHUYÊN NGANH\-n-CN-master\WepSiteBanHang\WepSiteBanHang\bin\System.Web.Razor.dll
+D:\ĐỒ ÁN CHUYÊN NGANH\-n-CN-master\WepSiteBanHang\WepSiteBanHang\bin\System.Web.WebPages.Deployment.dll
+D:\ĐỒ ÁN CHUYÊN NGANH\-n-CN-master\WepSiteBanHang\WepSiteBanHang\bin\System.Web.WebPages.dll
+D:\ĐỒ ÁN CHUYÊN NGANH\-n-CN-master\WepSiteBanHang\WepSiteBanHang\bin\System.Web.WebPages.Razor.dll
+D:\ĐỒ ÁN CHUYÊN NGANH\-n-CN-master\WepSiteBanHang\WepSiteBanHang\bin\WebGrease.dll
+D:\ĐỒ ÁN CHUYÊN NGANH\-n-CN-master\WepSiteBanHang\WepSiteBanHang\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\ĐỒ ÁN CHUYÊN NGANH\-n-CN-master\WepSiteBanHang\WepSiteBanHang\bin\PagedList.xml
+D:\ĐỒ ÁN CHUYÊN NGANH\-n-CN-master\WepSiteBanHang\WepSiteBanHang\bin\PagedList.Mvc.xml
+D:\ĐỒ ÁN CHUYÊN NGANH\-n-CN-master\WepSiteBanHang\WepSiteBanHang\bin\System.Web.Helpers.xml
+D:\ĐỒ ÁN CHUYÊN NGANH\-n-CN-master\WepSiteBanHang\WepSiteBanHang\bin\System.Web.Mvc.xml
+D:\ĐỒ ÁN CHUYÊN NGANH\-n-CN-master\WepSiteBanHang\WepSiteBanHang\bin\System.Web.Optimization.xml
+D:\ĐỒ ÁN CHUYÊN NGANH\-n-CN-master\WepSiteBanHang\WepSiteBanHang\bin\System.Web.Razor.xml
+D:\ĐỒ ÁN CHUYÊN NGANH\-n-CN-master\WepSiteBanHang\WepSiteBanHang\bin\System.Web.WebPages.xml
+D:\ĐỒ ÁN CHUYÊN NGANH\-n-CN-master\WepSiteBanHang\WepSiteBanHang\bin\System.Web.WebPages.Deployment.xml
+D:\ĐỒ ÁN CHUYÊN NGANH\-n-CN-master\WepSiteBanHang\WepSiteBanHang\bin\System.Web.WebPages.Razor.xml
+D:\ĐỒ ÁN CHUYÊN NGANH\-n-CN-master\WepSiteBanHang\WepSiteBanHang\bin\Antlr3.Runtime.pdb
+D:\ĐỒ ÁN CHUYÊN NGANH\-n-CN-master\WepSiteBanHang\WepSiteBanHang\bin\Newtonsoft.Json.xml
+D:\ĐỒ ÁN CHUYÊN NGANH\-n-CN-master\WepSiteBanHang\WepSiteBanHang\bin\EntityFramework.xml
+D:\ĐỒ ÁN CHUYÊN NGANH\-n-CN-master\WepSiteBanHang\WepSiteBanHang\bin\EntityFramework.SqlServer.xml
+D:\ĐỒ ÁN CHUYÊN NGANH\-n-CN-master\WepSiteBanHang\WepSiteBanHang\bin\Microsoft.AspNet.Identity.Core.xml
+D:\ĐỒ ÁN CHUYÊN NGANH\-n-CN-master\WepSiteBanHang\WepSiteBanHang\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\ĐỒ ÁN CHUYÊN NGANH\-n-CN-master\WepSiteBanHang\WepSiteBanHang\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\ĐỒ ÁN CHUYÊN NGANH\-n-CN-master\WepSiteBanHang\WepSiteBanHang\bin\Microsoft.Owin.xml
+D:\ĐỒ ÁN CHUYÊN NGANH\-n-CN-master\WepSiteBanHang\WepSiteBanHang\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\ĐỒ ÁN CHUYÊN NGANH\-n-CN-master\WepSiteBanHang\WepSiteBanHang\bin\Microsoft.Owin.Security.xml
+D:\ĐỒ ÁN CHUYÊN NGANH\-n-CN-master\WepSiteBanHang\WepSiteBanHang\bin\Microsoft.Owin.Security.Facebook.xml
+D:\ĐỒ ÁN CHUYÊN NGANH\-n-CN-master\WepSiteBanHang\WepSiteBanHang\bin\Microsoft.Owin.Security.Cookies.xml
+D:\ĐỒ ÁN CHUYÊN NGANH\-n-CN-master\WepSiteBanHang\WepSiteBanHang\bin\Microsoft.Owin.Security.OAuth.xml
+D:\ĐỒ ÁN CHUYÊN NGANH\-n-CN-master\WepSiteBanHang\WepSiteBanHang\bin\Microsoft.Owin.Security.Google.xml
+D:\ĐỒ ÁN CHUYÊN NGANH\-n-CN-master\WepSiteBanHang\WepSiteBanHang\bin\Microsoft.Owin.Security.Twitter.xml
+D:\ĐỒ ÁN CHUYÊN NGANH\-n-CN-master\WepSiteBanHang\WepSiteBanHang\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\ĐỒ ÁN CHUYÊN NGANH\-n-CN-master\WepSiteBanHang\WepSiteBanHang\obj\Debug\WepSiteBanHang.csprojResolveAssemblyReference.cache
+D:\ĐỒ ÁN CHUYÊN NGANH\-n-CN-master\WepSiteBanHang\WepSiteBanHang\obj\Debug\WepSiteBanHang.dll
+D:\ĐỒ ÁN CHUYÊN NGANH\-n-CN-master\WepSiteBanHang\WepSiteBanHang\obj\Debug\WepSiteBanHang.pdb
+C:\Users\HoLu\Downloads\-n-CN-master\-n-CN-master\WepSiteBanHang\WepSiteBanHang\obj\Debug\WepSiteBanHang.csprojResolveAssemblyReference.cache
+C:\Users\HoLu\Downloads\-n-CN-master\-n-CN-master\WepSiteBanHang\WepSiteBanHang\obj\Debug\WepSiteBanHang.dll
+C:\Users\HoLu\Downloads\-n-CN-master\-n-CN-master\WepSiteBanHang\WepSiteBanHang\obj\Debug\WepSiteBanHang.pdb
+C:\Users\HoLu\Downloads\-n-CN-master\-n-CN-master\WepSiteBanHang\WepSiteBanHang\bin\roslyn\csc.exe
+C:\Users\HoLu\Downloads\-n-CN-master\-n-CN-master\WepSiteBanHang\WepSiteBanHang\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\HoLu\Downloads\-n-CN-master\-n-CN-master\WepSiteBanHang\WepSiteBanHang\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\HoLu\Downloads\-n-CN-master\-n-CN-master\WepSiteBanHang\WepSiteBanHang\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\HoLu\Downloads\-n-CN-master\-n-CN-master\WepSiteBanHang\WepSiteBanHang\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\HoLu\Downloads\-n-CN-master\-n-CN-master\WepSiteBanHang\WepSiteBanHang\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\HoLu\Downloads\-n-CN-master\-n-CN-master\WepSiteBanHang\WepSiteBanHang\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\HoLu\Downloads\-n-CN-master\-n-CN-master\WepSiteBanHang\WepSiteBanHang\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\HoLu\Downloads\-n-CN-master\-n-CN-master\WepSiteBanHang\WepSiteBanHang\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\HoLu\Downloads\-n-CN-master\-n-CN-master\WepSiteBanHang\WepSiteBanHang\bin\roslyn\vbc.exe
+C:\Users\HoLu\Downloads\-n-CN-master\-n-CN-master\WepSiteBanHang\WepSiteBanHang\bin\roslyn\VBCSCompiler.exe
+C:\Users\HoLu\Downloads\-n-CN-master\-n-CN-master\WepSiteBanHang\WepSiteBanHang\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\HoLu\Downloads\-n-CN-master\-n-CN-master\WepSiteBanHang\WepSiteBanHang\bin\WepSiteBanHang.dll.config
+C:\Users\HoLu\Downloads\-n-CN-master\-n-CN-master\WepSiteBanHang\WepSiteBanHang\bin\WepSiteBanHang.dll
+C:\Users\HoLu\Downloads\-n-CN-master\-n-CN-master\WepSiteBanHang\WepSiteBanHang\bin\WepSiteBanHang.pdb
+C:\Users\HoLu\Downloads\-n-CN-master\-n-CN-master\WepSiteBanHang\WepSiteBanHang\bin\Antlr3.Runtime.dll
+C:\Users\HoLu\Downloads\-n-CN-master\-n-CN-master\WepSiteBanHang\WepSiteBanHang\bin\EntityFramework.dll
+C:\Users\HoLu\Downloads\-n-CN-master\-n-CN-master\WepSiteBanHang\WepSiteBanHang\bin\EntityFramework.SqlServer.dll
+C:\Users\HoLu\Downloads\-n-CN-master\-n-CN-master\WepSiteBanHang\WepSiteBanHang\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\HoLu\Downloads\-n-CN-master\-n-CN-master\WepSiteBanHang\WepSiteBanHang\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\HoLu\Downloads\-n-CN-master\-n-CN-master\WepSiteBanHang\WepSiteBanHang\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\HoLu\Downloads\-n-CN-master\-n-CN-master\WepSiteBanHang\WepSiteBanHang\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\HoLu\Downloads\-n-CN-master\-n-CN-master\WepSiteBanHang\WepSiteBanHang\bin\Microsoft.Owin.dll
+C:\Users\HoLu\Downloads\-n-CN-master\-n-CN-master\WepSiteBanHang\WepSiteBanHang\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\HoLu\Downloads\-n-CN-master\-n-CN-master\WepSiteBanHang\WepSiteBanHang\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\HoLu\Downloads\-n-CN-master\-n-CN-master\WepSiteBanHang\WepSiteBanHang\bin\Microsoft.Owin.Security.dll
+C:\Users\HoLu\Downloads\-n-CN-master\-n-CN-master\WepSiteBanHang\WepSiteBanHang\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\HoLu\Downloads\-n-CN-master\-n-CN-master\WepSiteBanHang\WepSiteBanHang\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\HoLu\Downloads\-n-CN-master\-n-CN-master\WepSiteBanHang\WepSiteBanHang\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\HoLu\Downloads\-n-CN-master\-n-CN-master\WepSiteBanHang\WepSiteBanHang\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\HoLu\Downloads\-n-CN-master\-n-CN-master\WepSiteBanHang\WepSiteBanHang\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\HoLu\Downloads\-n-CN-master\-n-CN-master\WepSiteBanHang\WepSiteBanHang\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\HoLu\Downloads\-n-CN-master\-n-CN-master\WepSiteBanHang\WepSiteBanHang\bin\Newtonsoft.Json.dll
+C:\Users\HoLu\Downloads\-n-CN-master\-n-CN-master\WepSiteBanHang\WepSiteBanHang\bin\Owin.dll
+C:\Users\HoLu\Downloads\-n-CN-master\-n-CN-master\WepSiteBanHang\WepSiteBanHang\bin\PagedList.dll
+C:\Users\HoLu\Downloads\-n-CN-master\-n-CN-master\WepSiteBanHang\WepSiteBanHang\bin\PagedList.Mvc.dll
+C:\Users\HoLu\Downloads\-n-CN-master\-n-CN-master\WepSiteBanHang\WepSiteBanHang\bin\System.Web.Helpers.dll
+C:\Users\HoLu\Downloads\-n-CN-master\-n-CN-master\WepSiteBanHang\WepSiteBanHang\bin\System.Web.Mvc.dll
+C:\Users\HoLu\Downloads\-n-CN-master\-n-CN-master\WepSiteBanHang\WepSiteBanHang\bin\System.Web.Optimization.dll
+C:\Users\HoLu\Downloads\-n-CN-master\-n-CN-master\WepSiteBanHang\WepSiteBanHang\bin\System.Web.Razor.dll
+C:\Users\HoLu\Downloads\-n-CN-master\-n-CN-master\WepSiteBanHang\WepSiteBanHang\bin\System.Web.WebPages.Deployment.dll
+C:\Users\HoLu\Downloads\-n-CN-master\-n-CN-master\WepSiteBanHang\WepSiteBanHang\bin\System.Web.WebPages.dll
+C:\Users\HoLu\Downloads\-n-CN-master\-n-CN-master\WepSiteBanHang\WepSiteBanHang\bin\System.Web.WebPages.Razor.dll
+C:\Users\HoLu\Downloads\-n-CN-master\-n-CN-master\WepSiteBanHang\WepSiteBanHang\bin\WebGrease.dll
+C:\Users\HoLu\Downloads\-n-CN-master\-n-CN-master\WepSiteBanHang\WepSiteBanHang\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\HoLu\Downloads\-n-CN-master\-n-CN-master\WepSiteBanHang\WepSiteBanHang\bin\PagedList.xml
+C:\Users\HoLu\Downloads\-n-CN-master\-n-CN-master\WepSiteBanHang\WepSiteBanHang\bin\PagedList.Mvc.xml
+C:\Users\HoLu\Downloads\-n-CN-master\-n-CN-master\WepSiteBanHang\WepSiteBanHang\bin\System.Web.Helpers.xml
+C:\Users\HoLu\Downloads\-n-CN-master\-n-CN-master\WepSiteBanHang\WepSiteBanHang\bin\System.Web.Mvc.xml
+C:\Users\HoLu\Downloads\-n-CN-master\-n-CN-master\WepSiteBanHang\WepSiteBanHang\bin\System.Web.Optimization.xml
+C:\Users\HoLu\Downloads\-n-CN-master\-n-CN-master\WepSiteBanHang\WepSiteBanHang\bin\System.Web.Razor.xml
+C:\Users\HoLu\Downloads\-n-CN-master\-n-CN-master\WepSiteBanHang\WepSiteBanHang\bin\System.Web.WebPages.xml
+C:\Users\HoLu\Downloads\-n-CN-master\-n-CN-master\WepSiteBanHang\WepSiteBanHang\bin\System.Web.WebPages.Deployment.xml
+C:\Users\HoLu\Downloads\-n-CN-master\-n-CN-master\WepSiteBanHang\WepSiteBanHang\bin\System.Web.WebPages.Razor.xml
+C:\Users\HoLu\Downloads\-n-CN-master\-n-CN-master\WepSiteBanHang\WepSiteBanHang\bin\Antlr3.Runtime.pdb
+C:\Users\HoLu\Downloads\-n-CN-master\-n-CN-master\WepSiteBanHang\WepSiteBanHang\bin\Newtonsoft.Json.xml
+C:\Users\HoLu\Downloads\-n-CN-master\-n-CN-master\WepSiteBanHang\WepSiteBanHang\bin\EntityFramework.xml
+C:\Users\HoLu\Downloads\-n-CN-master\-n-CN-master\WepSiteBanHang\WepSiteBanHang\bin\EntityFramework.SqlServer.xml
+C:\Users\HoLu\Downloads\-n-CN-master\-n-CN-master\WepSiteBanHang\WepSiteBanHang\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\HoLu\Downloads\-n-CN-master\-n-CN-master\WepSiteBanHang\WepSiteBanHang\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\HoLu\Downloads\-n-CN-master\-n-CN-master\WepSiteBanHang\WepSiteBanHang\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\HoLu\Downloads\-n-CN-master\-n-CN-master\WepSiteBanHang\WepSiteBanHang\bin\Microsoft.Owin.xml
+C:\Users\HoLu\Downloads\-n-CN-master\-n-CN-master\WepSiteBanHang\WepSiteBanHang\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\HoLu\Downloads\-n-CN-master\-n-CN-master\WepSiteBanHang\WepSiteBanHang\bin\Microsoft.Owin.Security.xml
+C:\Users\HoLu\Downloads\-n-CN-master\-n-CN-master\WepSiteBanHang\WepSiteBanHang\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\HoLu\Downloads\-n-CN-master\-n-CN-master\WepSiteBanHang\WepSiteBanHang\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\HoLu\Downloads\-n-CN-master\-n-CN-master\WepSiteBanHang\WepSiteBanHang\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\HoLu\Downloads\-n-CN-master\-n-CN-master\WepSiteBanHang\WepSiteBanHang\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\HoLu\Downloads\-n-CN-master\-n-CN-master\WepSiteBanHang\WepSiteBanHang\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\HoLu\Downloads\-n-CN-master\-n-CN-master\WepSiteBanHang\WepSiteBanHang\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\admin\Desktop\-n-CN-master\-n-CN-master\WepSiteBanHang\WepSiteBanHang\bin\roslyn\csc.exe
+C:\Users\admin\Desktop\-n-CN-master\-n-CN-master\WepSiteBanHang\WepSiteBanHang\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\admin\Desktop\-n-CN-master\-n-CN-master\WepSiteBanHang\WepSiteBanHang\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\admin\Desktop\-n-CN-master\-n-CN-master\WepSiteBanHang\WepSiteBanHang\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\admin\Desktop\-n-CN-master\-n-CN-master\WepSiteBanHang\WepSiteBanHang\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\admin\Desktop\-n-CN-master\-n-CN-master\WepSiteBanHang\WepSiteBanHang\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\admin\Desktop\-n-CN-master\-n-CN-master\WepSiteBanHang\WepSiteBanHang\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\admin\Desktop\-n-CN-master\-n-CN-master\WepSiteBanHang\WepSiteBanHang\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\admin\Desktop\-n-CN-master\-n-CN-master\WepSiteBanHang\WepSiteBanHang\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\admin\Desktop\-n-CN-master\-n-CN-master\WepSiteBanHang\WepSiteBanHang\bin\roslyn\vbc.exe
+C:\Users\admin\Desktop\-n-CN-master\-n-CN-master\WepSiteBanHang\WepSiteBanHang\bin\roslyn\VBCSCompiler.exe
+C:\Users\admin\Desktop\-n-CN-master\-n-CN-master\WepSiteBanHang\WepSiteBanHang\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\admin\Desktop\-n-CN-master\-n-CN-master\WepSiteBanHang\WepSiteBanHang\bin\WepSiteBanHang.dll.config
+C:\Users\admin\Desktop\-n-CN-master\-n-CN-master\WepSiteBanHang\WepSiteBanHang\bin\WepSiteBanHang.dll
+C:\Users\admin\Desktop\-n-CN-master\-n-CN-master\WepSiteBanHang\WepSiteBanHang\bin\WepSiteBanHang.pdb
+C:\Users\admin\Desktop\-n-CN-master\-n-CN-master\WepSiteBanHang\WepSiteBanHang\bin\Antlr3.Runtime.dll
+C:\Users\admin\Desktop\-n-CN-master\-n-CN-master\WepSiteBanHang\WepSiteBanHang\bin\EntityFramework.dll
+C:\Users\admin\Desktop\-n-CN-master\-n-CN-master\WepSiteBanHang\WepSiteBanHang\bin\EntityFramework.SqlServer.dll
+C:\Users\admin\Desktop\-n-CN-master\-n-CN-master\WepSiteBanHang\WepSiteBanHang\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\admin\Desktop\-n-CN-master\-n-CN-master\WepSiteBanHang\WepSiteBanHang\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\admin\Desktop\-n-CN-master\-n-CN-master\WepSiteBanHang\WepSiteBanHang\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\admin\Desktop\-n-CN-master\-n-CN-master\WepSiteBanHang\WepSiteBanHang\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\admin\Desktop\-n-CN-master\-n-CN-master\WepSiteBanHang\WepSiteBanHang\bin\Microsoft.Owin.dll
+C:\Users\admin\Desktop\-n-CN-master\-n-CN-master\WepSiteBanHang\WepSiteBanHang\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\admin\Desktop\-n-CN-master\-n-CN-master\WepSiteBanHang\WepSiteBanHang\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\admin\Desktop\-n-CN-master\-n-CN-master\WepSiteBanHang\WepSiteBanHang\bin\Microsoft.Owin.Security.dll
+C:\Users\admin\Desktop\-n-CN-master\-n-CN-master\WepSiteBanHang\WepSiteBanHang\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\admin\Desktop\-n-CN-master\-n-CN-master\WepSiteBanHang\WepSiteBanHang\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\admin\Desktop\-n-CN-master\-n-CN-master\WepSiteBanHang\WepSiteBanHang\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\admin\Desktop\-n-CN-master\-n-CN-master\WepSiteBanHang\WepSiteBanHang\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\admin\Desktop\-n-CN-master\-n-CN-master\WepSiteBanHang\WepSiteBanHang\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\admin\Desktop\-n-CN-master\-n-CN-master\WepSiteBanHang\WepSiteBanHang\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\admin\Desktop\-n-CN-master\-n-CN-master\WepSiteBanHang\WepSiteBanHang\bin\Newtonsoft.Json.dll
+C:\Users\admin\Desktop\-n-CN-master\-n-CN-master\WepSiteBanHang\WepSiteBanHang\bin\Owin.dll
+C:\Users\admin\Desktop\-n-CN-master\-n-CN-master\WepSiteBanHang\WepSiteBanHang\bin\PagedList.dll
+C:\Users\admin\Desktop\-n-CN-master\-n-CN-master\WepSiteBanHang\WepSiteBanHang\bin\PagedList.Mvc.dll
+C:\Users\admin\Desktop\-n-CN-master\-n-CN-master\WepSiteBanHang\WepSiteBanHang\bin\System.Web.Helpers.dll
+C:\Users\admin\Desktop\-n-CN-master\-n-CN-master\WepSiteBanHang\WepSiteBanHang\bin\System.Web.Mvc.dll
+C:\Users\admin\Desktop\-n-CN-master\-n-CN-master\WepSiteBanHang\WepSiteBanHang\bin\System.Web.Optimization.dll
+C:\Users\admin\Desktop\-n-CN-master\-n-CN-master\WepSiteBanHang\WepSiteBanHang\bin\System.Web.Razor.dll
+C:\Users\admin\Desktop\-n-CN-master\-n-CN-master\WepSiteBanHang\WepSiteBanHang\bin\System.Web.WebPages.Deployment.dll
+C:\Users\admin\Desktop\-n-CN-master\-n-CN-master\WepSiteBanHang\WepSiteBanHang\bin\System.Web.WebPages.dll
+C:\Users\admin\Desktop\-n-CN-master\-n-CN-master\WepSiteBanHang\WepSiteBanHang\bin\System.Web.WebPages.Razor.dll
+C:\Users\admin\Desktop\-n-CN-master\-n-CN-master\WepSiteBanHang\WepSiteBanHang\bin\WebGrease.dll
+C:\Users\admin\Desktop\-n-CN-master\-n-CN-master\WepSiteBanHang\WepSiteBanHang\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\admin\Desktop\-n-CN-master\-n-CN-master\WepSiteBanHang\WepSiteBanHang\bin\PagedList.xml
+C:\Users\admin\Desktop\-n-CN-master\-n-CN-master\WepSiteBanHang\WepSiteBanHang\bin\PagedList.Mvc.xml
+C:\Users\admin\Desktop\-n-CN-master\-n-CN-master\WepSiteBanHang\WepSiteBanHang\bin\System.Web.Helpers.xml
+C:\Users\admin\Desktop\-n-CN-master\-n-CN-master\WepSiteBanHang\WepSiteBanHang\bin\System.Web.Mvc.xml
+C:\Users\admin\Desktop\-n-CN-master\-n-CN-master\WepSiteBanHang\WepSiteBanHang\bin\System.Web.Optimization.xml
+C:\Users\admin\Desktop\-n-CN-master\-n-CN-master\WepSiteBanHang\WepSiteBanHang\bin\System.Web.Razor.xml
+C:\Users\admin\Desktop\-n-CN-master\-n-CN-master\WepSiteBanHang\WepSiteBanHang\bin\System.Web.WebPages.xml
+C:\Users\admin\Desktop\-n-CN-master\-n-CN-master\WepSiteBanHang\WepSiteBanHang\bin\System.Web.WebPages.Deployment.xml
+C:\Users\admin\Desktop\-n-CN-master\-n-CN-master\WepSiteBanHang\WepSiteBanHang\bin\System.Web.WebPages.Razor.xml
+C:\Users\admin\Desktop\-n-CN-master\-n-CN-master\WepSiteBanHang\WepSiteBanHang\bin\Antlr3.Runtime.pdb
+C:\Users\admin\Desktop\-n-CN-master\-n-CN-master\WepSiteBanHang\WepSiteBanHang\bin\Newtonsoft.Json.xml
+C:\Users\admin\Desktop\-n-CN-master\-n-CN-master\WepSiteBanHang\WepSiteBanHang\bin\EntityFramework.xml
+C:\Users\admin\Desktop\-n-CN-master\-n-CN-master\WepSiteBanHang\WepSiteBanHang\bin\EntityFramework.SqlServer.xml
+C:\Users\admin\Desktop\-n-CN-master\-n-CN-master\WepSiteBanHang\WepSiteBanHang\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\admin\Desktop\-n-CN-master\-n-CN-master\WepSiteBanHang\WepSiteBanHang\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\admin\Desktop\-n-CN-master\-n-CN-master\WepSiteBanHang\WepSiteBanHang\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\admin\Desktop\-n-CN-master\-n-CN-master\WepSiteBanHang\WepSiteBanHang\bin\Microsoft.Owin.xml
+C:\Users\admin\Desktop\-n-CN-master\-n-CN-master\WepSiteBanHang\WepSiteBanHang\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\admin\Desktop\-n-CN-master\-n-CN-master\WepSiteBanHang\WepSiteBanHang\bin\Microsoft.Owin.Security.xml
+C:\Users\admin\Desktop\-n-CN-master\-n-CN-master\WepSiteBanHang\WepSiteBanHang\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\admin\Desktop\-n-CN-master\-n-CN-master\WepSiteBanHang\WepSiteBanHang\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\admin\Desktop\-n-CN-master\-n-CN-master\WepSiteBanHang\WepSiteBanHang\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\admin\Desktop\-n-CN-master\-n-CN-master\WepSiteBanHang\WepSiteBanHang\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\admin\Desktop\-n-CN-master\-n-CN-master\WepSiteBanHang\WepSiteBanHang\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\admin\Desktop\-n-CN-master\-n-CN-master\WepSiteBanHang\WepSiteBanHang\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\admin\Desktop\-n-CN-master\-n-CN-master\WepSiteBanHang\WepSiteBanHang\obj\Debug\WepSiteBanHang.csprojResolveAssemblyReference.cache
+C:\Users\admin\Desktop\-n-CN-master\-n-CN-master\WepSiteBanHang\WepSiteBanHang\obj\Debug\WepSiteBanHang.dll
+C:\Users\admin\Desktop\-n-CN-master\-n-CN-master\WepSiteBanHang\WepSiteBanHang\obj\Debug\WepSiteBanHang.pdb
+D:\Khanhdeptrai\-n-CN\WepSiteBanHang\WepSiteBanHang\bin\roslyn\csc.exe
+D:\Khanhdeptrai\-n-CN\WepSiteBanHang\WepSiteBanHang\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Khanhdeptrai\-n-CN\WepSiteBanHang\WepSiteBanHang\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Khanhdeptrai\-n-CN\WepSiteBanHang\WepSiteBanHang\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Khanhdeptrai\-n-CN\WepSiteBanHang\WepSiteBanHang\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Khanhdeptrai\-n-CN\WepSiteBanHang\WepSiteBanHang\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Khanhdeptrai\-n-CN\WepSiteBanHang\WepSiteBanHang\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Khanhdeptrai\-n-CN\WepSiteBanHang\WepSiteBanHang\bin\roslyn\System.Collections.Immutable.dll
+D:\Khanhdeptrai\-n-CN\WepSiteBanHang\WepSiteBanHang\bin\roslyn\System.Reflection.Metadata.dll
+D:\Khanhdeptrai\-n-CN\WepSiteBanHang\WepSiteBanHang\bin\roslyn\vbc.exe
+D:\Khanhdeptrai\-n-CN\WepSiteBanHang\WepSiteBanHang\bin\roslyn\VBCSCompiler.exe
+D:\Khanhdeptrai\-n-CN\WepSiteBanHang\WepSiteBanHang\bin\roslyn\VBCSCompiler.exe.config
+D:\Khanhdeptrai\-n-CN\WepSiteBanHang\WepSiteBanHang\bin\WepSiteBanHang.dll.config
+D:\Khanhdeptrai\-n-CN\WepSiteBanHang\WepSiteBanHang\bin\WepSiteBanHang.dll
+D:\Khanhdeptrai\-n-CN\WepSiteBanHang\WepSiteBanHang\bin\WepSiteBanHang.pdb
+D:\Khanhdeptrai\-n-CN\WepSiteBanHang\WepSiteBanHang\bin\Antlr3.Runtime.dll
+D:\Khanhdeptrai\-n-CN\WepSiteBanHang\WepSiteBanHang\bin\EntityFramework.dll
+D:\Khanhdeptrai\-n-CN\WepSiteBanHang\WepSiteBanHang\bin\EntityFramework.SqlServer.dll
+D:\Khanhdeptrai\-n-CN\WepSiteBanHang\WepSiteBanHang\bin\Microsoft.AspNet.Identity.Core.dll
+D:\Khanhdeptrai\-n-CN\WepSiteBanHang\WepSiteBanHang\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\Khanhdeptrai\-n-CN\WepSiteBanHang\WepSiteBanHang\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\Khanhdeptrai\-n-CN\WepSiteBanHang\WepSiteBanHang\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Khanhdeptrai\-n-CN\WepSiteBanHang\WepSiteBanHang\bin\Microsoft.Owin.dll
+D:\Khanhdeptrai\-n-CN\WepSiteBanHang\WepSiteBanHang\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\Khanhdeptrai\-n-CN\WepSiteBanHang\WepSiteBanHang\bin\Microsoft.Owin.Security.Cookies.dll
+D:\Khanhdeptrai\-n-CN\WepSiteBanHang\WepSiteBanHang\bin\Microsoft.Owin.Security.dll
+D:\Khanhdeptrai\-n-CN\WepSiteBanHang\WepSiteBanHang\bin\Microsoft.Owin.Security.Facebook.dll
+D:\Khanhdeptrai\-n-CN\WepSiteBanHang\WepSiteBanHang\bin\Microsoft.Owin.Security.Google.dll
+D:\Khanhdeptrai\-n-CN\WepSiteBanHang\WepSiteBanHang\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\Khanhdeptrai\-n-CN\WepSiteBanHang\WepSiteBanHang\bin\Microsoft.Owin.Security.OAuth.dll
+D:\Khanhdeptrai\-n-CN\WepSiteBanHang\WepSiteBanHang\bin\Microsoft.Owin.Security.Twitter.dll
+D:\Khanhdeptrai\-n-CN\WepSiteBanHang\WepSiteBanHang\bin\Microsoft.Web.Infrastructure.dll
+D:\Khanhdeptrai\-n-CN\WepSiteBanHang\WepSiteBanHang\bin\Newtonsoft.Json.dll
+D:\Khanhdeptrai\-n-CN\WepSiteBanHang\WepSiteBanHang\bin\Owin.dll
+D:\Khanhdeptrai\-n-CN\WepSiteBanHang\WepSiteBanHang\bin\PagedList.dll
+D:\Khanhdeptrai\-n-CN\WepSiteBanHang\WepSiteBanHang\bin\PagedList.Mvc.dll
+D:\Khanhdeptrai\-n-CN\WepSiteBanHang\WepSiteBanHang\bin\System.Web.Helpers.dll
+D:\Khanhdeptrai\-n-CN\WepSiteBanHang\WepSiteBanHang\bin\System.Web.Mvc.dll
+D:\Khanhdeptrai\-n-CN\WepSiteBanHang\WepSiteBanHang\bin\System.Web.Optimization.dll
+D:\Khanhdeptrai\-n-CN\WepSiteBanHang\WepSiteBanHang\bin\System.Web.Razor.dll
+D:\Khanhdeptrai\-n-CN\WepSiteBanHang\WepSiteBanHang\bin\System.Web.WebPages.Deployment.dll
+D:\Khanhdeptrai\-n-CN\WepSiteBanHang\WepSiteBanHang\bin\System.Web.WebPages.dll
+D:\Khanhdeptrai\-n-CN\WepSiteBanHang\WepSiteBanHang\bin\System.Web.WebPages.Razor.dll
+D:\Khanhdeptrai\-n-CN\WepSiteBanHang\WepSiteBanHang\bin\WebGrease.dll
+D:\Khanhdeptrai\-n-CN\WepSiteBanHang\WepSiteBanHang\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Khanhdeptrai\-n-CN\WepSiteBanHang\WepSiteBanHang\bin\PagedList.xml
+D:\Khanhdeptrai\-n-CN\WepSiteBanHang\WepSiteBanHang\bin\PagedList.Mvc.xml
+D:\Khanhdeptrai\-n-CN\WepSiteBanHang\WepSiteBanHang\bin\System.Web.Helpers.xml
+D:\Khanhdeptrai\-n-CN\WepSiteBanHang\WepSiteBanHang\bin\System.Web.Mvc.xml
+D:\Khanhdeptrai\-n-CN\WepSiteBanHang\WepSiteBanHang\bin\System.Web.Optimization.xml
+D:\Khanhdeptrai\-n-CN\WepSiteBanHang\WepSiteBanHang\bin\System.Web.Razor.xml
+D:\Khanhdeptrai\-n-CN\WepSiteBanHang\WepSiteBanHang\bin\System.Web.WebPages.xml
+D:\Khanhdeptrai\-n-CN\WepSiteBanHang\WepSiteBanHang\bin\System.Web.WebPages.Deployment.xml
+D:\Khanhdeptrai\-n-CN\WepSiteBanHang\WepSiteBanHang\bin\System.Web.WebPages.Razor.xml
+D:\Khanhdeptrai\-n-CN\WepSiteBanHang\WepSiteBanHang\bin\Antlr3.Runtime.pdb
+D:\Khanhdeptrai\-n-CN\WepSiteBanHang\WepSiteBanHang\bin\Newtonsoft.Json.xml
+D:\Khanhdeptrai\-n-CN\WepSiteBanHang\WepSiteBanHang\bin\EntityFramework.xml
+D:\Khanhdeptrai\-n-CN\WepSiteBanHang\WepSiteBanHang\bin\EntityFramework.SqlServer.xml
+D:\Khanhdeptrai\-n-CN\WepSiteBanHang\WepSiteBanHang\bin\Microsoft.AspNet.Identity.Core.xml
+D:\Khanhdeptrai\-n-CN\WepSiteBanHang\WepSiteBanHang\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\Khanhdeptrai\-n-CN\WepSiteBanHang\WepSiteBanHang\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\Khanhdeptrai\-n-CN\WepSiteBanHang\WepSiteBanHang\bin\Microsoft.Owin.xml
+D:\Khanhdeptrai\-n-CN\WepSiteBanHang\WepSiteBanHang\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\Khanhdeptrai\-n-CN\WepSiteBanHang\WepSiteBanHang\bin\Microsoft.Owin.Security.xml
+D:\Khanhdeptrai\-n-CN\WepSiteBanHang\WepSiteBanHang\bin\Microsoft.Owin.Security.Facebook.xml
+D:\Khanhdeptrai\-n-CN\WepSiteBanHang\WepSiteBanHang\bin\Microsoft.Owin.Security.Cookies.xml
+D:\Khanhdeptrai\-n-CN\WepSiteBanHang\WepSiteBanHang\bin\Microsoft.Owin.Security.OAuth.xml
+D:\Khanhdeptrai\-n-CN\WepSiteBanHang\WepSiteBanHang\bin\Microsoft.Owin.Security.Google.xml
+D:\Khanhdeptrai\-n-CN\WepSiteBanHang\WepSiteBanHang\bin\Microsoft.Owin.Security.Twitter.xml
+D:\Khanhdeptrai\-n-CN\WepSiteBanHang\WepSiteBanHang\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\Khanhdeptrai\-n-CN\WepSiteBanHang\WepSiteBanHang\obj\Debug\WepSiteBanHang.csprojResolveAssemblyReference.cache
+D:\Khanhdeptrai\-n-CN\WepSiteBanHang\WepSiteBanHang\obj\Debug\WepSiteBanHang.dll
+D:\Khanhdeptrai\-n-CN\WepSiteBanHang\WepSiteBanHang\obj\Debug\WepSiteBanHang.pdb
+F:\DACN\DACN\-n-CN\WepSiteBanHang\WepSiteBanHang\bin\PagedList.dll
+F:\DACN\DACN\-n-CN\WepSiteBanHang\WepSiteBanHang\bin\PagedList.Mvc.dll
+F:\DACN\DACN\-n-CN\WepSiteBanHang\WepSiteBanHang\bin\PagedList.xml
+F:\DACN\DACN\-n-CN\WepSiteBanHang\WepSiteBanHang\bin\PagedList.Mvc.xml
+F:\LAP_TRINH\CSDL\TOOL\Oracle\ORACLE\Do an\WEB\WepSiteBanHang\WepSiteBanHang\obj\Debug\WepSiteBanHang.dll
+F:\LAP_TRINH\CSDL\TOOL\Oracle\ORACLE\Do an\WEB\WepSiteBanHang\WepSiteBanHang\obj\Debug\WepSiteBanHang.pdb
+F:\LAP_TRINH\CSDL\TOOL\Oracle\ORACLE\Do an\WEB\WepSiteBanHang\WepSiteBanHang\bin\roslyn\csc.exe
+F:\LAP_TRINH\CSDL\TOOL\Oracle\ORACLE\Do an\WEB\WepSiteBanHang\WepSiteBanHang\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+F:\LAP_TRINH\CSDL\TOOL\Oracle\ORACLE\Do an\WEB\WepSiteBanHang\WepSiteBanHang\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+F:\LAP_TRINH\CSDL\TOOL\Oracle\ORACLE\Do an\WEB\WepSiteBanHang\WepSiteBanHang\bin\roslyn\Microsoft.CodeAnalysis.dll
+F:\LAP_TRINH\CSDL\TOOL\Oracle\ORACLE\Do an\WEB\WepSiteBanHang\WepSiteBanHang\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+F:\LAP_TRINH\CSDL\TOOL\Oracle\ORACLE\Do an\WEB\WepSiteBanHang\WepSiteBanHang\bin\roslyn\Microsoft.CSharp.Core.targets
+F:\LAP_TRINH\CSDL\TOOL\Oracle\ORACLE\Do an\WEB\WepSiteBanHang\WepSiteBanHang\bin\roslyn\Microsoft.VisualBasic.Core.targets
+F:\LAP_TRINH\CSDL\TOOL\Oracle\ORACLE\Do an\WEB\WepSiteBanHang\WepSiteBanHang\bin\roslyn\System.Collections.Immutable.dll
+F:\LAP_TRINH\CSDL\TOOL\Oracle\ORACLE\Do an\WEB\WepSiteBanHang\WepSiteBanHang\bin\roslyn\System.Reflection.Metadata.dll
+F:\LAP_TRINH\CSDL\TOOL\Oracle\ORACLE\Do an\WEB\WepSiteBanHang\WepSiteBanHang\bin\roslyn\vbc.exe
+F:\LAP_TRINH\CSDL\TOOL\Oracle\ORACLE\Do an\WEB\WepSiteBanHang\WepSiteBanHang\bin\roslyn\VBCSCompiler.exe
+F:\LAP_TRINH\CSDL\TOOL\Oracle\ORACLE\Do an\WEB\WepSiteBanHang\WepSiteBanHang\bin\roslyn\VBCSCompiler.exe.config
+F:\LAP_TRINH\CSDL\TOOL\Oracle\ORACLE\Do an\WEB\WepSiteBanHang\WepSiteBanHang\bin\WepSiteBanHang.dll.config
+F:\LAP_TRINH\CSDL\TOOL\Oracle\ORACLE\Do an\WEB\WepSiteBanHang\WepSiteBanHang\bin\WepSiteBanHang.dll
+F:\LAP_TRINH\CSDL\TOOL\Oracle\ORACLE\Do an\WEB\WepSiteBanHang\WepSiteBanHang\bin\WepSiteBanHang.pdb
+F:\LAP_TRINH\CSDL\TOOL\Oracle\ORACLE\Do an\WEB\WepSiteBanHang\WepSiteBanHang\bin\Antlr3.Runtime.dll
+F:\LAP_TRINH\CSDL\TOOL\Oracle\ORACLE\Do an\WEB\WepSiteBanHang\WepSiteBanHang\bin\EntityFramework.dll
+F:\LAP_TRINH\CSDL\TOOL\Oracle\ORACLE\Do an\WEB\WepSiteBanHang\WepSiteBanHang\bin\EntityFramework.SqlServer.dll
+F:\LAP_TRINH\CSDL\TOOL\Oracle\ORACLE\Do an\WEB\WepSiteBanHang\WepSiteBanHang\bin\Microsoft.AspNet.Identity.Core.dll
+F:\LAP_TRINH\CSDL\TOOL\Oracle\ORACLE\Do an\WEB\WepSiteBanHang\WepSiteBanHang\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+F:\LAP_TRINH\CSDL\TOOL\Oracle\ORACLE\Do an\WEB\WepSiteBanHang\WepSiteBanHang\bin\Microsoft.AspNet.Identity.Owin.dll
+F:\LAP_TRINH\CSDL\TOOL\Oracle\ORACLE\Do an\WEB\WepSiteBanHang\WepSiteBanHang\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+F:\LAP_TRINH\CSDL\TOOL\Oracle\ORACLE\Do an\WEB\WepSiteBanHang\WepSiteBanHang\bin\Microsoft.Owin.dll
+F:\LAP_TRINH\CSDL\TOOL\Oracle\ORACLE\Do an\WEB\WepSiteBanHang\WepSiteBanHang\bin\Microsoft.Owin.Host.SystemWeb.dll
+F:\LAP_TRINH\CSDL\TOOL\Oracle\ORACLE\Do an\WEB\WepSiteBanHang\WepSiteBanHang\bin\Microsoft.Owin.Security.Cookies.dll
+F:\LAP_TRINH\CSDL\TOOL\Oracle\ORACLE\Do an\WEB\WepSiteBanHang\WepSiteBanHang\bin\Microsoft.Owin.Security.dll
+F:\LAP_TRINH\CSDL\TOOL\Oracle\ORACLE\Do an\WEB\WepSiteBanHang\WepSiteBanHang\bin\Microsoft.Owin.Security.Facebook.dll
+F:\LAP_TRINH\CSDL\TOOL\Oracle\ORACLE\Do an\WEB\WepSiteBanHang\WepSiteBanHang\bin\Microsoft.Owin.Security.Google.dll
+F:\LAP_TRINH\CSDL\TOOL\Oracle\ORACLE\Do an\WEB\WepSiteBanHang\WepSiteBanHang\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+F:\LAP_TRINH\CSDL\TOOL\Oracle\ORACLE\Do an\WEB\WepSiteBanHang\WepSiteBanHang\bin\Microsoft.Owin.Security.OAuth.dll
+F:\LAP_TRINH\CSDL\TOOL\Oracle\ORACLE\Do an\WEB\WepSiteBanHang\WepSiteBanHang\bin\Microsoft.Owin.Security.Twitter.dll
+F:\LAP_TRINH\CSDL\TOOL\Oracle\ORACLE\Do an\WEB\WepSiteBanHang\WepSiteBanHang\bin\Microsoft.Web.Infrastructure.dll
+F:\LAP_TRINH\CSDL\TOOL\Oracle\ORACLE\Do an\WEB\WepSiteBanHang\WepSiteBanHang\bin\Newtonsoft.Json.dll
+F:\LAP_TRINH\CSDL\TOOL\Oracle\ORACLE\Do an\WEB\WepSiteBanHang\WepSiteBanHang\bin\Oracle.ManagedDataAccess.dll
+F:\LAP_TRINH\CSDL\TOOL\Oracle\ORACLE\Do an\WEB\WepSiteBanHang\WepSiteBanHang\bin\Oracle.ManagedDataAccess.EntityFramework.dll
+F:\LAP_TRINH\CSDL\TOOL\Oracle\ORACLE\Do an\WEB\WepSiteBanHang\WepSiteBanHang\bin\Owin.dll
+F:\LAP_TRINH\CSDL\TOOL\Oracle\ORACLE\Do an\WEB\WepSiteBanHang\WepSiteBanHang\bin\PagedList.dll
+F:\LAP_TRINH\CSDL\TOOL\Oracle\ORACLE\Do an\WEB\WepSiteBanHang\WepSiteBanHang\bin\PagedList.Mvc.dll
+F:\LAP_TRINH\CSDL\TOOL\Oracle\ORACLE\Do an\WEB\WepSiteBanHang\WepSiteBanHang\bin\System.Web.Helpers.dll
+F:\LAP_TRINH\CSDL\TOOL\Oracle\ORACLE\Do an\WEB\WepSiteBanHang\WepSiteBanHang\bin\System.Web.Mvc.dll
+F:\LAP_TRINH\CSDL\TOOL\Oracle\ORACLE\Do an\WEB\WepSiteBanHang\WepSiteBanHang\bin\System.Web.Optimization.dll
+F:\LAP_TRINH\CSDL\TOOL\Oracle\ORACLE\Do an\WEB\WepSiteBanHang\WepSiteBanHang\bin\System.Web.Razor.dll
+F:\LAP_TRINH\CSDL\TOOL\Oracle\ORACLE\Do an\WEB\WepSiteBanHang\WepSiteBanHang\bin\System.Web.WebPages.Deployment.dll
+F:\LAP_TRINH\CSDL\TOOL\Oracle\ORACLE\Do an\WEB\WepSiteBanHang\WepSiteBanHang\bin\System.Web.WebPages.dll
+F:\LAP_TRINH\CSDL\TOOL\Oracle\ORACLE\Do an\WEB\WepSiteBanHang\WepSiteBanHang\bin\System.Web.WebPages.Razor.dll
+F:\LAP_TRINH\CSDL\TOOL\Oracle\ORACLE\Do an\WEB\WepSiteBanHang\WepSiteBanHang\bin\WebGrease.dll
+F:\LAP_TRINH\CSDL\TOOL\Oracle\ORACLE\Do an\WEB\WepSiteBanHang\WepSiteBanHang\bin\EntityFramework.xml
+F:\LAP_TRINH\CSDL\TOOL\Oracle\ORACLE\Do an\WEB\WepSiteBanHang\WepSiteBanHang\bin\EntityFramework.SqlServer.xml
+F:\LAP_TRINH\CSDL\TOOL\Oracle\ORACLE\Do an\WEB\WepSiteBanHang\WepSiteBanHang\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+F:\LAP_TRINH\CSDL\TOOL\Oracle\ORACLE\Do an\WEB\WepSiteBanHang\WepSiteBanHang\bin\PagedList.xml
+F:\LAP_TRINH\CSDL\TOOL\Oracle\ORACLE\Do an\WEB\WepSiteBanHang\WepSiteBanHang\bin\PagedList.Mvc.xml
+F:\LAP_TRINH\CSDL\TOOL\Oracle\ORACLE\Do an\WEB\WepSiteBanHang\WepSiteBanHang\bin\System.Web.Helpers.xml
+F:\LAP_TRINH\CSDL\TOOL\Oracle\ORACLE\Do an\WEB\WepSiteBanHang\WepSiteBanHang\bin\System.Web.Mvc.xml
+F:\LAP_TRINH\CSDL\TOOL\Oracle\ORACLE\Do an\WEB\WepSiteBanHang\WepSiteBanHang\bin\System.Web.Optimization.xml
+F:\LAP_TRINH\CSDL\TOOL\Oracle\ORACLE\Do an\WEB\WepSiteBanHang\WepSiteBanHang\bin\System.Web.Razor.xml
+F:\LAP_TRINH\CSDL\TOOL\Oracle\ORACLE\Do an\WEB\WepSiteBanHang\WepSiteBanHang\bin\System.Web.WebPages.xml
+F:\LAP_TRINH\CSDL\TOOL\Oracle\ORACLE\Do an\WEB\WepSiteBanHang\WepSiteBanHang\bin\System.Web.WebPages.Deployment.xml
+F:\LAP_TRINH\CSDL\TOOL\Oracle\ORACLE\Do an\WEB\WepSiteBanHang\WepSiteBanHang\bin\System.Web.WebPages.Razor.xml
+F:\LAP_TRINH\CSDL\TOOL\Oracle\ORACLE\Do an\WEB\WepSiteBanHang\WepSiteBanHang\bin\Antlr3.Runtime.pdb
+F:\LAP_TRINH\CSDL\TOOL\Oracle\ORACLE\Do an\WEB\WepSiteBanHang\WepSiteBanHang\bin\Newtonsoft.Json.xml
+F:\LAP_TRINH\CSDL\TOOL\Oracle\ORACLE\Do an\WEB\WepSiteBanHang\WepSiteBanHang\bin\Microsoft.AspNet.Identity.Core.xml
+F:\LAP_TRINH\CSDL\TOOL\Oracle\ORACLE\Do an\WEB\WepSiteBanHang\WepSiteBanHang\bin\Microsoft.AspNet.Identity.Owin.xml
+F:\LAP_TRINH\CSDL\TOOL\Oracle\ORACLE\Do an\WEB\WepSiteBanHang\WepSiteBanHang\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+F:\LAP_TRINH\CSDL\TOOL\Oracle\ORACLE\Do an\WEB\WepSiteBanHang\WepSiteBanHang\bin\Microsoft.Owin.xml
+F:\LAP_TRINH\CSDL\TOOL\Oracle\ORACLE\Do an\WEB\WepSiteBanHang\WepSiteBanHang\bin\Microsoft.Owin.Host.SystemWeb.xml
+F:\LAP_TRINH\CSDL\TOOL\Oracle\ORACLE\Do an\WEB\WepSiteBanHang\WepSiteBanHang\bin\Microsoft.Owin.Security.xml
+F:\LAP_TRINH\CSDL\TOOL\Oracle\ORACLE\Do an\WEB\WepSiteBanHang\WepSiteBanHang\bin\Microsoft.Owin.Security.Facebook.xml
+F:\LAP_TRINH\CSDL\TOOL\Oracle\ORACLE\Do an\WEB\WepSiteBanHang\WepSiteBanHang\bin\Microsoft.Owin.Security.Cookies.xml
+F:\LAP_TRINH\CSDL\TOOL\Oracle\ORACLE\Do an\WEB\WepSiteBanHang\WepSiteBanHang\bin\Microsoft.Owin.Security.OAuth.xml
+F:\LAP_TRINH\CSDL\TOOL\Oracle\ORACLE\Do an\WEB\WepSiteBanHang\WepSiteBanHang\bin\Microsoft.Owin.Security.Google.xml
+F:\LAP_TRINH\CSDL\TOOL\Oracle\ORACLE\Do an\WEB\WepSiteBanHang\WepSiteBanHang\bin\Microsoft.Owin.Security.Twitter.xml
+F:\LAP_TRINH\CSDL\TOOL\Oracle\ORACLE\Do an\WEB\WepSiteBanHang\WepSiteBanHang\bin\Microsoft.Owin.Security.MicrosoftAccount.xml

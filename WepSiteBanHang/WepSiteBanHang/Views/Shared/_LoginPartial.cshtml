@@ -1,0 +1,55 @@
+﻿@using WepSiteBanHang.Models
+@if (Session["ShoppingCart"] != null)
+    {
+        int cartcount = 0;
+        List<CartItem> ls = (List<CartItem>)Session["ShoppingCart"];
+        foreach (CartItem item in ls)
+        {
+            cartcount += item.Quality;
+        }
+        ViewBag.count = cartcount;
+    }
+
+@{ 
+    ThanhVien tv = (ThanhVien)Session["Thanhvien"];
+}
+
+    @*@Html.AntiForgeryToken()
+
+    <ul class="nav navbar-nav navbar-right">
+        <li>
+            @Html.ActionLink("Hello "  + "!", "Index", "Manage", routeValues: null, htmlAttributes: new { title = "Manage" })
+        </li>
+        <li><a href="javascript:document.getElementById('logoutForm').submit()">Log off</a></li>
+    </ul>*@
+
+    <ul class="nav navbar-nav navbar-right">
+        @if (Session["Thanhvien"] == null)
+        {
+        <li>@Html.ActionLink("Tạo Tài Khoản", "Dangnhap", "Khachhang", routeValues: null, htmlAttributes: new { id = "registerLink" })</li>
+        <li>@Html.ActionLink("Đăng Nhập", "Dangnhap", "Khachhang", routeValues: null, htmlAttributes: new { id = "loginLink" })</li>
+        }
+        else
+        {
+
+            <li>
+                <a href="#" >Chào @tv.HoTen</a>
+            </li>
+
+            <li>
+                <a href="@Url.Action("Thoattk","KhachHang")">Thoát</a>
+            </li>
+        }
+
+        <a href="@Url.Action("Giohang","Giohang")" style="text-decoration:none" >
+            <img  height="50" width="50" src="~/images/menu_icon_3.png" />
+            <span class="badge" id="Cart_Amount">@ViewBag.count</span> <span class="badge"> Sản Phẩm</span>
+        </a>
+
+    </ul>
+<script>
+$(document).ready(function(){
+    $(".dropdown-toggle").dropdown();
+});
+</script>
+

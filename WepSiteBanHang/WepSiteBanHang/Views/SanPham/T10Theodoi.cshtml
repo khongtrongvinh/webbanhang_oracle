@@ -1,0 +1,23 @@
+﻿@using WepSiteBanHang.Models
+@model IEnumerable<SANPHAM>
+<div class="content-right">
+    <div class="test">
+        <h3> Top Sản phẩm</h3>
+    </div>
+    @foreach (var item in Model.Take(5))
+    {
+        <a href="@Url.Action("XemChiTiet", "SanPham", new { id=item.MaSP })">
+            <div class="col-lg-10 product-left wow flash" style="width:100%;margin:5px;padding:0">
+                <div class="product-main simpleCart_shelfItem">
+                    <a href="@Url.Action("XemChiTiet", "SanPham", new { id=item.MaSP })" class="mask"><img class="img-responsive zoom-img" src="@Url.Content("~/Content/HinhAnhSP/"+item.HinhAnh)" style="width:90px;height:90px" alt=""></a>
+                    <div class="product-bottom" style="float:left">
+                        <h3 style="overflow:hidden;margin-bottom:5%">@item.TenSP</h3>
+                        <h4><span class="item_price">@item.DonGia.Value.ToString("#,##") VNĐ</span></h4>
+                    </div>
+                    <div style="clear:both"></div>
+                </div>
+            </div>
+        </a>
+
+    }
+</div>

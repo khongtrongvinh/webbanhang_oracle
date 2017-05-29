@@ -1,0 +1,74 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Forms</title>
+
+    <link href="~/Content/bootstrap.min.css" rel="stylesheet">
+    <link href="~/Content/datepicker3.css" rel="stylesheet">
+    <link href="~/Content/styles.css" rel="stylesheet">
+</head>
+<body>
+    <div class="row">
+        <div class="col-xs-10 col-xs-offset-1 col-sm-8 col-sm-offset-2 col-md-4 col-md-offset-4">
+            <div class="login-panel panel panel-default">
+                <div class="panel-heading">
+                    Đăng Nhập
+                </div>
+                <div class="panel-body">
+                    @using (Html.BeginForm())
+                    {
+                        @Html.ValidationSummary(true)
+
+                        <div class="form-group">
+                            <input class="form-control" placeholder="Tài khoản" name="taikhoan" type="text" autofocus="">
+                            <div style="color:red">@ViewData["Loi1"]</div>
+                        </div>
+                        <div class="form-group">
+                            <input class="form-control" placeholder="Password" name="password" type="password">
+                            <div style="color:red">@ViewData["Loi2"]</div>
+                        </div>
+                                <div class="checkbox">
+                                    <label>
+                                        <input name="remember" type="checkbox" value="Remember Me">Nhớ Tài Khoản
+                                    </label>
+                                </div>
+                                @*<a href="@Url.Action("DangNhap","Admin")" class="btn btn-primary">Đăng Nhập</a>*@
+                                <button class="btn" type="submit">Đăng Nhập</button>
+                    }
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="/Scripts/jquery-1.11.1.min.js"></script>
+    <script src="/Scripts/bootstrap.min.js"></script>
+    <script src="/Scripts/chart.min.js"></script>
+    <script src="/Scripts/chart-data.js"></script>
+    <script src="/Scripts/easypiechart.js"></script>
+    <script src="/Scripts/easypiechart-data.js"></script>
+    <script src="/Scripts/bootstrap-datepicker.js"></script>
+    <script>
+                !function ($) {
+                    $(document).on("click","ul.nav li.parent > a > span.icon", function(){
+                        $(this).find('em:first').toggleClass("glyphicon-minus");
+                    });
+                    $(".sidebar span.icon").find('em:first').addClass("glyphicon-plus");
+                }(window.jQuery);
+
+                $(window).on('resize', function () {
+                  if ($(window).width() > 768) $('#sidebar-collapse').collapse('show')
+                })
+                $(window).on('resize', function () {
+                  if ($(window).width() <= 767) $('#sidebar-collapse').collapse('hide')
+                })
+    </script>
+
+</body>
+</html>

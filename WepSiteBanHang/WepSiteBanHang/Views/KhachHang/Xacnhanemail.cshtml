@@ -1,0 +1,50 @@
+﻿
+@{
+    ViewBag.Title = "Xacnhanemail";
+    Layout = "~/Views/Layout/ProductLayout.cshtml";
+}
+<script src="~/Scripts/jquery.validate.min.js"></script>
+<script src="~/Scripts/jquery.validate.js"></script>
+<form action="#" id="demo" method="post">
+<div style="margin:auto;text-align:center;width:40%">
+    <h2>Tìm lại mật khẩu</h2>
+    <div class="form-group">
+        <label>Tên đăng của bạn</label>
+        <input type="text" name="tentk" id="txtName" class="form-control" required />
+    </div>
+    <div class="form-group">
+        <label>Email của tài khoản</label>
+        <input type="text" name="xnemail" class="form-control" required />
+    </div>
+    <button id="btnSend" class="btn btn-success">Gửi di</button>
+</div>
+</form>
+<script type="text/javascript">
+
+    $(document).ready(function () {
+
+        $("#demo").validate({
+            rules: {
+                tentk: "required",
+
+                xnemail: {
+                    required: true,
+                    email: true
+                },
+
+
+            },
+            messages: {
+                tentk: "Vui lòng nhâp Tài Khoản",
+                xnemail: {
+                    required: "Vui Lòng Nhập Mail",
+                    minlength: "Mail Không có thực",
+                    email:"Xin Hãy Nhập Ðúng địa chỉ Email"
+                },
+
+
+
+            }
+        });
+    });
+</script>

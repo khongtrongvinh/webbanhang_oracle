@@ -1,0 +1,179 @@
+﻿@using WepSiteBanHang.Models;
+@model LIENHE
+@{
+    ViewBag.Title = "LienHe";
+    Layout = "~/Views/Layout/ProductLayout.cshtml";
+}
+
+<style>
+    #map {
+        height: 500px;
+        width: 100%;
+    }
+</style>
+
+
+<script>
+    var latlng = new google.maps.LatLng(10.807775, 106.688979);
+  
+    var marker = new google.maps.Marker({
+        position: latlng,
+        map: map,
+        title: "Dia diem cua ban" 
+
+    });
+
+      var map;
+      function initMap() {
+
+          var latlng = new google.maps.LatLng(10.807775, 106.688979);
+        map = new google.maps.Map(document.getElementById('map'), {
+            center: latlng,
+            zoom: 10
+        });
+
+          
+        var marker = new google.maps.Marker({
+            position: latlng,
+            map: map,
+            title: "Your Title" 
+
+        });
+
+        var infoWindow = new google.maps.InfoWindow({ map: map });
+        if (navigator.geolocation) {
+            navigator.geolocation.getCurrentPosition(function (position) {
+                var pos = {
+                    lat: position.coords.latitude,
+                    lng: position.coords.longitude
+                };
+
+                infoWindow.setPosition(pos);
+                infoWindow.setContent('Vịu trí của bạn');
+                map.setCenter(pos);
+
+                var directionsDisplay = new google.maps.DirectionsRenderer({
+                    map: map
+                });
+                var request = {
+                    destination: latlng, 
+                    origin: pos, 
+                    travelMode: google.maps.TravelMode.DRIVING
+                };
+                var directionsService = new google.maps.DirectionsService();
+                directionsService.route(request, function (response, status) {
+                    if (status == google.maps.DirectionsStatus.OK) {
+                    
+                        directionsDisplay.setDirections(response);
+                    }
+                });
+            }, function () {
+                handleLocationError(true, infoWindow, map.getCenter());
+            });
+        } else {
+           
+            handleLocationError(false, infoWindow, map.getCenter());
+        }
+
+        function handleLocationError(browserHasGeolocation, infoWindow, pos) {
+            infoWindow.setPosition(pos);
+            infoWindow.setContent(browserHasGeolocation ?
+                                  'Error: The Geolocation service failed.' :
+                                  'Error: Your browser doesn\'t support geolocation.');
+        }
+      }
+     
+
+</script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBlYo8KEEVJKYurmKTH4nak3SjNDf-xg-w&callback=initMap" async defer></script>
+
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+<div class="content">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="col-md-6">
+                <h2>Thông tin liên hệ</h2>
+                    @Html.Raw(Model.ThongTin)
+                <br />
+                <h2>Gửi thông tin</h2>
+             <form action="#" id="demo" method="post">
+               
+                    <div class="form-group">
+                        <label>Họ tên</label>
+                        <input type="text" name="HOTEN" id="txtName" class="form-control"  required/>
+                    </div>
+                    <div class="form-group">
+                        <label>Điện thoại</label>
+                        <input type="text" name="DIENTHOAI" id="txtMobile" class="form-control" required/>
+                    </div>
+                    <div class="form-group">
+                        <label>Địa chỉ</label>
+                        <input type="text" name="DIACHI" id="txtAddress" class="form-control" required/>
+                    </div>
+                    <div class="form-group">
+                        <label>Email</label>
+                        <input type="text" name="EMAIL"id="txtEmail" class="form-control" required/>
+                    </div>
+                    <div class="form-group">
+                        <label>Yêu cầu</label>
+                        <textarea name="YEUCAU" id="txtContent" class="form-control"></textarea>
+                    </div>
+                    <button id="btnSend" class="btn btn-success">Gửi đi</button>
+                   </form>
+            </div>
+            <div class="col-md-6">
+                <h2>Bản đồ</h2>
+                <div class="map" id="map">
+                    <iframe width="50%" height="175" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.co.in/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Lighthouse+Point,+FL,+United+States&amp;aq=4&amp;oq=light&amp;sll=26.275636,-80.087265&amp;sspn=0.04941,0.104628&amp;ie=UTF8&amp;hq=&amp;hnear=Lighthouse+Point,+Broward,+Florida,+United+States&amp;t=m&amp;z=14&amp;ll=26.275636,-80.087265&amp;output=embed"></iframe><br><small><a href="https://maps.google.co.in/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=Lighthouse+Point,+FL,+United+States&amp;aq=4&amp;oq=light&amp;sll=26.275636,-80.087265&amp;sspn=0.04941,0.104628&amp;ie=UTF8&amp;hq=&amp;hnear=Lighthouse+Point,+Broward,+Florida,+United+States&amp;t=m&amp;z=14&amp;ll=26.275636,-80.087265" style="color:#666;text-align:left;font-size:12px">View Larger Map</a></small>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="~/Scripts/jquery-1.11.1.min.js"></script>
+<script src="~/Scripts/jquery.validate.min.js"></script>
+<script src="~/Scripts/jquery.validate.js"></script>
+<script type="text/javascript">
+
+ $(document).ready(function() {
+
+     $("#demo").validate({
+     rules: {
+     HOTEN: "required",
+     DIENTHOAI: {
+      required: true,
+      number: true,
+      maxlength: 11,
+     },
+     DIACHI: {
+     required: true,
+     minlength: 4
+     },
+     EMAIL: {
+     required: true,
+     email: true
+     },
+     },
+     messages: {
+     HOTEN: "Vui lòng nhập Họ Tên",
+     DIENTHOAI: {
+     required: "Vui lòng nhập số điện thoại",
+     maxlength: "Số máy quý khách vừa nhập là số không có thực",
+     number:"Không đươc để Kí Hiệu hoặc chữ "
+     },
+     DIACHI: {
+     required: "Vui lòng nhập địa chỉ",
+     minlength: "Địa chỉ ngắn vậy"
+     }, 
+     EMAIL: {
+     required: "Please provide a password",
+     minlength: "Your password must be at least 5 characters long",
+     equalTo: "Please enter the same password as above"
+     },
+     EMAIL: "Vui lòng nhập Email",
+    
+     }
+     });
+     });
+</script>

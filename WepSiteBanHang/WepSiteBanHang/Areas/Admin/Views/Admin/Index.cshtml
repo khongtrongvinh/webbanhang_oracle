@@ -1,0 +1,65 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Areas/Admin/Views/LayoutAD/AdinLayout.cshtml";
+    WebGrid grid = new WebGrid(source: Model, rowsPerPage: 5);
+}
+@Html.ActionLink("Thêm sản phẩm", "TaoMoi", null, new { @class = "btn btn-success" })
+<br />
+@*Thể hiện dữ liệu thông qua control webgrid*@
+@grid.GetHtml(
+    tableStyle: "table table-striped table-bordered table-hover divTable",
+    headerStyle: "gridHead",
+    footerStyle: "gridFooter",
+    rowStyle: "gridRow",
+    alternatingRowStyle: "GridAltRow",
+    columns: grid.Columns(
+    grid.Column("MaSP", "Mã SP"),
+    grid.Column("TenSP", "Tên SP"),
+    grid.Column("MoTa", "Mô tả", format: p => @Html.Raw(p.MoTa)),
+    grid.Column("HinhAnh", "Hình ảnh", format: p => @Html.Raw("<img width=\"150\" height=\"150\" src=\"../../Content/HinhAnhSP/" + p.HinhAnh + "\">")),
+    //grid.Column("NgayCapNhat", "Ngày Cập Nhật"),
+    grid.Column(format: p => @Html.ActionLink("Chỉnh sửa", "ChinhSua", new { id = p.MaSP  }, new { @class = "btn btn-primary" })),
+    grid.Column(format: p => @Html.ActionLink("Xóa", "Xoa", new { id = p.MaSP} ,new {  @class = "btn btn-info" }))
+
+    ))
+@*Css cho từng Style của table*@
+<style>
+    .divTable {
+        text-align:center;
+    }
+
+        .divTable td {
+            border: 1px solid #999999;
+          overflow: hidden;
+    text-overflow: '...v.v...';
+    width:250px
+        }
+
+    .gridHead {
+        background-color: Green;
+      
+    }
+
+        .gridHead > th > a {
+            color: #fff;
+        }
+
+    .gridFooter {
+        font-weight: bold;
+    }
+    /*.gridRow {
+        color:#fff;
+        background-color:blueviolet;
+    }
+    .gridAltRow {
+        color:#fff;
+        background-color:darkorange;
+    }*/
+</style>
+
+<style>
+    .FooterAdmin {
+        display: none;
+    }
+</style>

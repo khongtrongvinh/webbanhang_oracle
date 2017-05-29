@@ -1,0 +1,47 @@
+﻿
+@{
+    ViewBag.Title = "Dangnhap";
+    Layout = "~/Views/Layout/ProductLayout.cshtml";
+}
+
+<div class="w3l_banner_nav_right">
+    <div class="w3_login">
+        <h3>Đăng nhập và Đăng ký tài khoản</h3>
+        <div class="w3_login_module">
+            <div class="module form-module">
+                <div class="toggle">
+                    <i class="fa fa-times fa-pencil"></i>
+                    <div class="tooltip">Đăng ký</div>
+                </div>
+                <div class="form">
+                    <h2>Đăng Nhập Tài Khoản</h2>
+                    <form action="#" method="post">
+                        <input type="text" name="User" placeholder="Nhập Tài Khoản" required=" ">
+                        <input type="password" name="Pass" placeholder="Nhập Mật Khẩu" required=" ">
+                        @ViewData["Loi3"]
+                        <input type="submit" value="Đăng Nhập">
+                    </form>
+                </div>
+                @Html.Action("DangKy", "KhachHang")
+                <div class="cta"><a href="@Url.Action("Xacnhanemail", "KhachHang")">Quên mật khẩu</a></div>
+            </div>
+        </div>
+        <script>
+				$('.toggle').click(function(){
+				  // Switches the Icon
+				  $(this).children('i').toggleClass('fa-pencil');
+				  // Switches the forms
+				  $('.form').animate({
+					height: "toggle",
+					'padding-top': 'toggle',
+					'padding-bottom': 'toggle',
+					opacity: "toggle"
+				  }, "slow");
+				});
+        </script>
+    </div>
+    <!-- //login -->
+</div>
+
+
+

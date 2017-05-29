@@ -1,0 +1,39 @@
+﻿@using WepSiteBanHang.Models;
+@using PagedList.Mvc;
+@model PagedList.IPagedList<SANPHAM>
+
+@{
+    ViewBag.Title = "SanPham";
+    Layout = "~/Views/Layout/ProductLayout.cshtml";
+}
+
+
+<div class="product-one">
+    @foreach (var item in Model.Take(9))
+    {
+        <div class="col-md-3 product-left wow slideInLeft" style="padding:1px;margin:10px">
+            <div class="product-main simpleCart_shelfItem">
+                <a href="@Url.Action("XemChiTiet","SANPHAM",new { id=item.MaSP })" class="mask"><img class="img-responsive zoom-img" src="@Url.Content("~/Content/HinhAnhSP/"+item.HinhAnh)" style="width:150px;height:150px" alt=""></a>
+                <div class="product-bottom">
+                    <h3 style="height:40px;overflow:hidden">@item.TenSP</h3>
+                 
+                    <h4><a class="item_add" href="#"><i>Giá</i></a> <span class="item_price">@item.DonGia.Value.ToString("#,##") VNĐ</span></h4>
+                    <a style="margin:1% 30% 0;" onclick="AddToCart('@item.MaSP')" class="btn hvr-radial-in"><strong>Thêm Vào Giỏ</strong></a>
+                </div>
+                <div class="srch">
+                  
+                </div>
+            </div>
+           
+        </div>
+      
+    }
+    @Html.Action("T10Theodoi", "SanPham")
+ 
+</div>
+<div class="clearfix"> </div>
+
+<div class="dlink">
+    Trang @(Model.PageCount < Model.PageNumber ? 0 : Model.PageNumber)/@Model.PageCount
+    @Html.PagedListPager(Model, page => Url.Action("SanPham", new { page = page, @MaLoaiSP = ViewBag.MaLoaiSP, @MaNSX = ViewBag.MaNSX }))
+</div>

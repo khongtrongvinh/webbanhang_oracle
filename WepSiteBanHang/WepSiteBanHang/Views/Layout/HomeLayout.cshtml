@@ -1,0 +1,646 @@
+﻿logo<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Luxury Watches A Ecommerce Category Flat Bootstrap Resposive Website Template | Home :: w3layouts</title>
+    <link href="~/Content/css/bootstrap.css" rel="stylesheet" type="text/css" media="all">
+    <!--jQuery(necessary for Bootstrap's JavaScript plugins)-->
+    <script src="~/Content/js/jquery-1.11.0.min.js"></script>
+    <!--Custom-Theme-files-->
+    <!--theme-style-->
+    <link href="~/Content/css/style.css" rel="stylesheet" type="text/css" media="all">
+    <!--//theme-style-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="keywords" content="Luxury Watches Responsive web template, Bootstrap Web Templates, Flat Web Templates, Andriod Compatible web template,
+    Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyErricsson, Motorola web design">
+    <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+    <!--start-menu-->
+    <script src="~/Content/js/simpleCart.min.js"> </script>
+    <link href="~/Content/css/memenu.css" rel="stylesheet" type="text/css" media="all">
+    <script type="text/javascript" src="~/Content/js/memenu.js"></script>
+    <script>$(document).ready(function(){$(".memenu").memenu();});</script>
+    <!--dropdown-->
+    <script src="~/Content/js/jquery.easydropdown.js"></script>
+    <link href="~/Content/build/loading-bar.min.css" rel="stylesheet" />
+    <script src="~/Content/build/loading-bar.min.js"></script>
+    <link href="~/Content/css/animate.css" rel="stylesheet" />
+    <script src="~/Content/js/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+    <script>
+        function AddToCart(MaSP) {
+            $.ajax({
+                type: 'POST',
+                url: '/GioHang/AddToCart',
+                data: { id: MaSP },
+                success: function (data) {
+                    $("#Cart_Amount").html(data.ItemAmount);
+                }
+            });
+        }
+    </script>
+    @Scripts.Render("~/bundles/bootstrap")
+
+    <script>
+        window.fbAsyncInit = function() {
+            FB.init({
+                appId      : '2154793004744934',
+                xfbml      : true,
+                version    : 'v2.8'
+            });
+        };
+
+        (function(d, s, id){
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) {return;}
+            js = d.createElement(s); js.id = id;
+            js.src = "//connect.facebook.net/vi_VN/sdk.js";
+            fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));
+    </script>
+    <link href="~/Content/css/w3.css" rel="stylesheet" />
+    <!--Load-->
+    <script>
+        $(function(){
+            $("body").append($("<div></div>").attr("id", "progress"));
+            $("#progress").width((50 + Math.random() * 30) + "%");
+        });
+        $(window).load(function() {
+            $("#progress").width("101%").delay(300).fadeOut(400);
+        });
+    </script>
+    <!---Load-->
+    <script>
+        function move() {
+            var elem = document.getElementById("myBar");
+            var width = 1;
+            var id = setInterval(frame, 10);
+            $("body").append($("<div></div>").attr("id", "myBar"));
+            function frame() {
+                if (width >= 100) {
+                    clearInterval(id);
+                } else {
+                    width+=5;
+                    elem.style.width = width + '%';
+                }
+            }
+            $(window).load(function() {
+                $("#myBar").width("101%").delay(100).fadeOut(400);
+            });
+        }
+    </script>
+</head>
+<body>
+
+    <div class="headdings">
+        <div class="navbar navbar-inverse navbar-fixed-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+
+                </div>
+                <div class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav"></ul>
+                    @Html.Partial("_LoginPartial")
+                </div>
+            </div>
+            <div id="progress"></div>
+            <div class="w3-progress-container" style="height:2px;border-color:white">
+                <div id="myBar" class="w3-progressbar w3-blue" style="width:0%;"></div>
+            </div>
+        </div>
+        <div class="clearfix"></div>
+    </div>
+
+    <!--top-header-->
+    <!--start-logo-->
+    <div class="logo">
+        <a href="index.html"><h1 class="wow bounceInLeft">Luxury </h1></a>
+
+    </div>
+    <!--start-logo-->
+    <!--bottom-header-->
+    <div class="header-bottom">
+        <div class="container">
+            <div class="header">
+                @Html.Action("MenuPartial", "Home")
+                @*<div class="col-md-9 header-left">
+                        <div class="top-nav">
+                            <ul class="memenu skyblue">
+                                <li class="showhide" style="display: none;"><span class="title">MENU</span><span class="icon1"></span><span class="icon2"></span></li>
+                                <li class="active" style=""><a href="index.html">Home</a></li>
+                                <li class="grid" style="">
+                                    <a href="#">Men</a>
+                                    <div class="mepanel">
+                                        <div class="row">
+                                            <div class="col1 me-one">
+                                                <h4>Shop</h4>
+                                                <ul>
+                                                    <li><a href="products.html">New Arrivals</a></li>
+                                                    <li><a href="products.html">Blazers</a></li>
+                                                    <li><a href="products.html">Swem Wear</a></li>
+                                                    <li><a href="products.html">Accessories</a></li>
+                                                    <li><a href="products.html">Handbags</a></li>
+                                                    <li><a href="products.html">T-Shirts</a></li>
+                                                    <li><a href="products.html">Watches</a></li>
+                                                    <li><a href="products.html">My Shopping Bag</a></li>
+                                                </ul>
+                                            </div>
+                                            <div class="col1 me-one">
+                                                <h4>Style Zone</h4>
+                                                <ul>
+                                                    <li><a href="products.html">Shoes</a></li>
+                                                    <li><a href="products.html">Watches</a></li>
+                                                    <li><a href="products.html">Brands</a></li>
+                                                    <li><a href="products.html">Coats</a></li>
+                                                    <li><a href="products.html">Accessories</a></li>
+                                                    <li><a href="products.html">Trousers</a></li>
+                                                </ul>
+                                            </div>
+                                            <div class="col1 me-one">
+                                                <h4>Popular Brands</h4>
+                                                <ul>
+                                                    <li><a href="products.html">499 Store</a></li>
+                                                    <li><a href="products.html">Fastrack</a></li>
+                                                    <li><a href="products.html">Casio</a></li>
+                                                    <li><a href="products.html">Fossil</a></li>
+                                                    <li><a href="products.html">Maxima</a></li>
+                                                    <li><a href="products.html">Timex</a></li>
+                                                    <li><a href="products.html">TomTom</a></li>
+                                                    <li><a href="products.html">Titan</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="grid" style="">
+                                    <a href="#">Women</a>
+                                    <div class="mepanel">
+                                        <div class="row">
+                                            <div class="col1 me-one">
+                                                <h4>Shop</h4>
+                                                <ul>
+                                                    <li><a href="products.html">New Arrivals</a></li>
+                                                    <li><a href="products.html">Blazers</a></li>
+                                                    <li><a href="products.html">Swem Wear</a></li>
+                                                    <li><a href="products.html">Accessories</a></li>
+                                                    <li><a href="products.html">Handbags</a></li>
+                                                    <li><a href="products.html">T-Shirts</a></li>
+                                                    <li><a href="products.html">Watches</a></li>
+                                                    <li><a href="products.html">My Shopping Bag</a></li>
+                                                </ul>
+                                            </div>
+                                            <div class="col1 me-one">
+                                                <h4>Style Zone</h4>
+                                                <ul>
+                                                    <li><a href="products.html">Shoes</a></li>
+                                                    <li><a href="products.html">Watches</a></li>
+                                                    <li><a href="products.html">Brands</a></li>
+                                                    <li><a href="products.html">Coats</a></li>
+                                                    <li><a href="products.html">Accessories</a></li>
+                                                    <li><a href="products.html">Trousers</a></li>
+                                                </ul>
+                                            </div>
+                                            <div class="col1 me-one">
+                                                <h4>Popular Brands</h4>
+                                                <ul>
+                                                    <li><a href="products.html">499 Store</a></li>
+                                                    <li><a href="products.html">Fastrack</a></li>
+                                                    <li><a href="products.html">Casio</a></li>
+                                                    <li><a href="products.html">Fossil</a></li>
+                                                    <li><a href="products.html">Maxima</a></li>
+                                                    <li><a href="products.html">Timex</a></li>
+                                                    <li><a href="products.html">TomTom</a></li>
+                                                    <li><a href="products.html">Titan</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="grid" style="">
+                                    <a href="#">Kids</a>
+                                    <div class="mepanel">
+                                        <div class="row">
+                                            <div class="col1 me-one">
+                                                <h4>Shop</h4>
+                                                <ul>
+                                                    <li><a href="products.html">New Arrivals</a></li>
+                                                    <li><a href="products.html">Blazers</a></li>
+                                                    <li><a href="products.html">Swem Wear</a></li>
+                                                    <li><a href="products.html">Accessories</a></li>
+                                                    <li><a href="products.html">Handbags</a></li>
+                                                    <li><a href="products.html">T-Shirts</a></li>
+                                                    <li><a href="products.html">Watches</a></li>
+                                                    <li><a href="products.html">My Shopping Bag</a></li>
+                                                </ul>
+                                            </div>
+                                            <div class="col1 me-one">
+                                                <h4>Style Zone</h4>
+                                                <ul>
+                                                    <li><a href="products.html">Shoes</a></li>
+                                                    <li><a href="products.html">Watches</a></li>
+                                                    <li><a href="products.html">Brands</a></li>
+                                                    <li><a href="products.html">Coats</a></li>
+                                                    <li><a href="products.html">Accessories</a></li>
+                                                    <li><a href="products.html">Trousers</a></li>
+                                                </ul>
+                                            </div>
+                                            <div class="col1 me-one">
+                                                <h4>Popular Brands</h4>
+                                                <ul>
+                                                    <li><a href="products.html">499 Store</a></li>
+                                                    <li><a href="products.html">Fastrack</a></li>
+                                                    <li><a href="products.html">Casio</a></li>
+                                                    <li><a href="products.html">Fossil</a></li>
+                                                    <li><a href="products.html">Maxima</a></li>
+                                                    <li><a href="products.html">Timex</a></li>
+                                                    <li><a href="products.html">TomTom</a></li>
+                                                    <li><a href="products.html">Titan</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="grid" style="">
+                                    <a href="typo.html">Blog</a>
+                                </li>
+                                <li class="grid" style="">
+                                    <a href="contact.html">Contact</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="clearfix"> </div>
+                    </div>*@
+                <div class="col-md-3 header-right">
+                    <div class="search-bar">
+                        @using (Html.BeginForm("KQTimKiem", "TimKiem"))
+                        {
+                            <input type="text" name="sTuKhoa" placeholder="Nhập tên sản  phẩm cần tìm" />
+                            <input value="" type="submit">
+                        }
+                    </div>
+                </div>
+                <div class="clearfix"> </div>
+            </div>
+        </div>
+    </div>
+    <!--bottom-header-->
+    <!--banner-starts-->
+    <div class="bnr wow flipInY" id="home">
+        <div id="top" class="callbacks_container ">
+            <ul class="rslides callbacks callbacks1" id="slider4">
+                <li id="callbacks1_s0" style="display: list-item; transition: opacity 500ms ease-in-out 0s; float: left; position: relative; opacity: 1; z-index: 2;" class="callbacks1_on">
+                    <img src="~/images/hinh4.orig.jpg" alt="">
+                </li>
+                <li id="callbacks1_s1" style="display: list-item; transition: opacity 500ms ease-in-out 0s; float: none; position: absolute; opacity: 0; z-index: 1;" class="">
+                    <img src="~/images/hinh2.png" alt="">
+                </li>
+                <li id="callbacks1_s2" style="display: list-item; transition: opacity 500ms ease-in-out 0s; float: none; position: absolute; opacity: 0; z-index: 1;" class="">
+                    <img style="height:600px" src="~/images/hinh5.jpg" alt="">
+                </li>
+            </ul><a href="#" class="callbacks_nav callbacks1_nav prev">Previous</a><a href="#" class="callbacks_nav callbacks1_nav next">Next</a><ul class="callbacks_tabs callbacks1_tabs"><li class="callbacks1_s1 callbacks_here"><a href="#" class="callbacks1_s1">1</a></li><li class="callbacks1_s2"><a href="#" class="callbacks1_s2">2</a></li><li class="callbacks1_s3"><a href="#" class="callbacks1_s3">3</a></li></ul>
+        </div>
+        <div class="clearfix"> </div>
+    </div>
+    <!--banner-ends-->
+    <!--Slider-Starts-Here-->
+    <script src="~/Content/js/responsiveslides.min.js"></script>
+    <script>
+        // You can also use "$(window).load(function() {"
+        $(function () {
+            // Slideshow 4
+            $("#slider4").responsiveSlides({
+                auto: true,
+                pager: true,
+                nav: true,
+                speed: 500,
+
+                namespace: "callbacks",
+                before: function () {
+                    $('.events').append("<li>before event fired.</li>");
+                },
+                after: function () {
+                    $('.events').append("<li>after event fired.</li>");
+                }
+            });
+
+        });
+    </script>
+    <!--End-slider-script-->
+    <!--about-starts-->
+    <div class="about">
+        <div class="container">
+            @*<div class="about-top grid-1">
+                    <div class="col-md-4 about-left">
+                        <figure class="effect-bubba">
+                            <img class="img-responsive" src="~/images/abt-1.jpg" alt="">
+                            <figcaption>
+                                <h2>Nulla maximus nunc</h2>
+                                <p>In sit amet sapien eros Integer dolore magna aliqua</p>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <div class="col-md-4 about-left">
+                        <figure class="effect-bubba">
+                            <img class="img-responsive" src="~/images/abt-2.jpg" alt="">
+                            <figcaption>
+                                <h4>Mauris erat augue</h4>
+                                <p>In sit amet sapien eros Integer dolore magna aliqua</p>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <div class="col-md-4 about-left">
+                        <figure class="effect-bubba">
+                            <img class="img-responsive" src="~/images/abt-3.jpg" alt="">
+                            <figcaption>
+                                <h4>Cras elit mauris</h4>
+                                <p>In sit amet sapien eros Integer dolore magna aliqua</p>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>*@
+        </div>
+    </div>
+    <!--about-end-->
+    <!--product-starts-->
+    <div class="product">
+        @RenderBody()
+        @*<div class="container">
+                <div class="product-top">
+                    <div class="product-one">
+                        <div class="col-md-3 product-left">
+                            <div class="product-main simpleCart_shelfItem">
+                                <a href="single.html" class="mask"><img class="img-responsive zoom-img" src="images/p-1.png" alt=""></a>
+                                <div class="product-bottom">
+                                    <h3>Smart Watches</h3>
+                                    <p>Explore Now</p>
+                                    <h4><a class="item_add" href="#"><i></i></a> <span class=" item_price">$ 329</span></h4>
+                                </div>
+                                <div class="srch">
+                                    <span>-50%</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 product-left">
+                            <div class="product-main simpleCart_shelfItem">
+                                <a href="single.html" class="mask"><img class="img-responsive zoom-img" src="images/p-2.png" alt=""></a>
+                                <div class="product-bottom">
+                                    <h3>Smart Watches</h3>
+                                    <p>Explore Now</p>
+                                    <h4><a class="item_add" href="#"><i></i></a> <span class=" item_price">$ 329</span></h4>
+                                </div>
+                                <div class="srch">
+                                    <span>-50%</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 product-left">
+                            <div class="product-main simpleCart_shelfItem">
+                                <a href="single.html" class="mask"><img class="img-responsive zoom-img" src="images/p-3.png" alt=""></a>
+                                <div class="product-bottom">
+                                    <h3>Smart Watches</h3>
+                                    <p>Explore Now</p>
+                                    <h4><a class="item_add" href="#"><i></i></a> <span class=" item_price">$ 329</span></h4>
+                                </div>
+                                <div class="srch">
+                                    <span>-50%</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 product-left">
+                            <div class="product-main simpleCart_shelfItem">
+                                <a href="single.html" class="mask"><img class="img-responsive zoom-img" src="images/p-4.png" alt=""></a>
+                                <div class="product-bottom">
+                                    <h3>Smart Watches</h3>
+                                    <p>Explore Now</p>
+                                    <h4><a class="item_add" href="#"><i></i></a> <span class=" item_price">$ 329</span></h4>
+                                </div>
+                                <div class="srch">
+                                    <span>-50%</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="clearfix"></div>
+                    </div>
+                    <div class="product-one">
+                        <div class="col-md-3 product-left">
+                            <div class="product-main simpleCart_shelfItem">
+                                <a href="single.html" class="mask"><img class="img-responsive zoom-img" src="images/p-5.png" alt=""></a>
+                                <div class="product-bottom">
+                                    <h3>Smart Watches</h3>
+                                    <p>Explore Now</p>
+                                    <h4><a class="item_add" href="#"><i></i></a> <span class=" item_price">$ 329</span></h4>
+                                </div>
+                                <div class="srch">
+                                    <span>-50%</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 product-left">
+                            <div class="product-main simpleCart_shelfItem">
+                                <a href="single.html" class="mask"><img class="img-responsive zoom-img" src="images/p-6.png" alt=""></a>
+                                <div class="product-bottom">
+                                    <h3>Smart Watches</h3>
+                                    <p>Explore Now</p>
+                                    <h4><a class="item_add" href="#"><i></i></a> <span class=" item_price">$ 329</span></h4>
+                                </div>
+                                <div class="srch">
+                                    <span>-50%</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 product-left">
+                            <div class="product-main simpleCart_shelfItem">
+                                <a href="single.html" class="mask"><img class="img-responsive zoom-img" src="images/p-7.png" alt=""></a>
+                                <div class="product-bottom">
+                                    <h3>Smart Watches</h3>
+                                    <p>Explore Now</p>
+                                    <h4><a class="item_add" href="#"><i></i></a> <span class=" item_price">$ 329</span></h4>
+                                </div>
+                                <div class="srch">
+                                    <span>-50%</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 product-left">
+                            <div class="product-main simpleCart_shelfItem">
+                                <a href="single.html" class="mask"><img class="img-responsive zoom-img" src="images/p-8.png" alt=""></a>
+                                <div class="product-bottom">
+                                    <h3>Smart Watches</h3>
+                                    <p>Explore Now</p>
+                                    <h4><a class="item_add" href="#"><i></i></a> <span class=" item_price">$ 329</span></h4>
+                                </div>
+                                <div class="srch">
+                                    <span>-50%</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="clearfix"></div>
+                    </div>
+                </div>
+            </div>*@
+
+    </div>
+    <!--product-end-->
+    <!--information-starts-->
+    <div class="information">
+        <div class="container">
+            <div class="infor-top">
+                <div class="col-md-3 infor-left">
+                    <h3>Theo Dõi Chúng Tôi</h3>
+                    <ul>
+                        <li><a href="#"><span class="fb"></span><h6>Facebook</h6></a></li>
+                        <li><a href="#"><span class="twit"></span><h6>Twitter</h6></a></li>
+                        <li><a href="#"><span class="google"></span><h6>Google+</h6></a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3 infor-left">
+                    <h3>Thông Tin</h3>
+                    <ul>
+                        <li><a href="#"><p>Ðặc biệt</p></a></li>
+                        <li><a href="#"><p>Sản phẩm mới</p></a></li>
+                        <li><a href="#"><p>Cửa hàng chúng tôi</p></a></li>
+                        <li><a href="#"><p>Liên Hệ</p></a></li>
+                        <li><a href="#"><p>Sản phẩm bán chạy</p></a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3 infor-left">
+                    <h3>Tài khoản của tôi</h3>
+                    <ul>
+                        <li><a href="#"><p>Ðăng nhập</p></a></li>
+                        <li><a href="#"><p>Ðăng ký</p></a></li>
+
+                    </ul>
+                </div>
+                <div class="col-md-3 infor-left">
+                    <h3>Thông Tin Cửa Hàng</h3>
+                    <h4>
+                        Tên Công Ty
+                        <span>Luxuxy</span>
+                        Ðịa Chỉ 49 Hùng Vuong, Quyết Thắng, TPHCM
+                    </h4>
+                    <h5>+955 123 4567</h5>
+                    <p><a href="mailto:example@email.com">luxuxyTL@gmail.com</a></p>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+        </div>
+    </div>
+    <!--information-end-->
+    <!--footer-starts-->
+    <div class="footer">
+        <div class="container">
+            <div class="footer-top">
+                <div class="col-md-6 footer-left">
+                    <form>
+                        <input value="Enter Your Email" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Enter Your Email';}" type="text">
+                        <input value="Subscribe" type="submit">
+                    </form>
+                </div>
+                <div class="col-md-6 footer-right">
+                    <p>© 2015 Luxury . All Rights Reserved | Design by</p>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+        </div>
+    </div>
+    <!--information-end-->
+    <!--footer-starts-->
+    <div class="footer">
+        <div class="container">
+            <div class="footer-top">
+                <div class="col-md-6 footer-left">
+                    <form>
+                        <input value="Enter Your Email" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Enter Your Email';}" type="text">
+                        <input value="Subscribe" type="submit">
+                    </form>
+                </div>
+                <div class="col-md-6 footer-right">
+                    <p>© 2015 Luxury Watches. All Rights Reserved | Design by  <a href="http://w3layouts.com/" target="_blank">W3layouts</a> </p>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+        </div>
+    </div>
+    <!--footer-end-->
+    <style>
+        #cfacebook {
+            position: fixed;
+            bottom: 0px;
+            right: 100px;
+            z-index: 999999999999999;
+            width: 250px;
+            height: auto;
+            box-shadow: 6px 6px 6px 10px rgba(0,0,0,0.2);
+            border-top-left-radius: 5px;
+            border-top-right-radius: 5px;
+            overflow: hidden;
+        }
+
+            #cfacebook .fchat {
+                float: left;
+                width: 100%;
+                height: 270px;
+                overflow: hidden;
+                display: none;
+                background-color: #fff;
+            }
+
+                #cfacebook .fchat .fb-page {
+                    margin-top: -130px;
+                    float: left;
+                }
+
+            #cfacebook a.chat_fb {
+                float: left;
+                padding: 0 25px;
+                width: 250px;
+                color: #fff;
+                text-decoration: none;
+                height: 40px;
+                line-height: 40px;
+                text-shadow: 0 1px 0 rgba(0,0,0,0.1);
+                background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAAqCAMAAABFoMFOAAAAWlBMV…8/UxBxQDQuFwlpqgBZBq6+P+unVY1GnDgwqbD2zGz5e1lBdwvGGPE6OgAAAABJRU5ErkJggg==);
+                background-repeat: repeat-x;
+                background-size: auto;
+                background-position: 0 0;
+                background-color: #3a5795;
+                border: 0;
+                border-bottom: 1px solid #133783;
+                z-index: 9999999;
+                margin-right: 12px;
+                font-size: 18px;
+            }
+
+                #cfacebook a.chat_fb:hover {
+                    color: yellow;
+                    text-decoration: none;
+                }
+    </style>
+
+    <div id="fb-root">
+
+        <script>
+            jQuery(document).ready(function () {
+                jQuery(".chat_fb").click(function() {
+                    jQuery('.fchat').toggle('slow');
+                });
+            });
+        </script>
+        <div id="cfacebook">
+            <a href="javascript:;" class="chat_fb" onclick="return;false;"><i class="fa fa-facebook-square"></i> Phản hồi của bạn</a>
+            <div class="fchat">
+                <div class="fb-page" data-tabs="messages" data-href="https://www.facebook.com/Komi-941861872585244/" data-width="250" data-height="400" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true" data-show-posts="false"></div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>

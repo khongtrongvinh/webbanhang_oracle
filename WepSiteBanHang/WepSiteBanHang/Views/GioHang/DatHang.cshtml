@@ -1,0 +1,129 @@
+﻿@using WepSiteBanHang.Models;
+@model  List<CartItem>
+@{
+    ViewBag.Title = "DatHang";
+    Layout = "~/Views/Layout/HomeLayout.cshtml";
+}
+
+
+
+<div class="table-responsive">
+    <table class="table table-hover table-striped table-bordered">
+        <thead>
+            <tr>
+
+                <th style="text-align:center">
+                    Tên Sản Phẩm
+                </th>
+                <th style="text-align:center">
+                    Đơn Giá
+                </th>
+                <th style="text-align:center">
+                    Hình Ảnh
+                </th>
+
+                <th style="text-align:center">
+                    Số Lượng
+                </th>
+                <th style="text-align:center">
+                    Tổng Giá
+                </th>
+
+            </tr>
+        </thead>
+        @{
+            double total = 0;
+            List<CartItem> listCart = (List<CartItem>)Session["ShoppingCart"];
+        }
+        <tbody>
+            @if (listCart != null)
+            {
+                foreach (var item in (List<CartItem>)Session["ShoppingCart"])
+                {
+
+                    <tr style="text-align:center">
+                        <td>
+                            @item.productOrder.TenSP
+                        </td>
+                        <td style="margin:100px">
+                            <strong style="color:darksalmon">$ @item.productOrder.DonGia.Value.ToString("#,##") VND </strong>
+                        </td>
+                        <td>
+
+                            <img src="@Url.Content("~/Content/HinhAnhSP/"+item.productOrder.HinhAnh)" alt="cover page" width="210" />
+                        </td>
+                        @using (Html.BeginForm("Update", "Giohang", new { id = item.productOrder.MaSP }))
+                    {
+                            <td style="text-align:center">
+                                <i>
+                                    <input style="overflow:unset;margin:10px" type="text" value="@item.Quality.ToString("#,##")" id="Quality" name="Quality" class="text-center" />
+                                    <input style="margin-top:2.5%" type="submit" value="Update" class="btn btn-warning" id="Update" />
+                                </i>
+                            </td>
+                            <td>
+                                @{
+                                    double value = (double)item.productOrder.DonGia * item.Quality;
+                                    total += value;
+                                }
+                                @value.ToString("#,##")
+                            </td>
+                            <td>
+                                <a><h4 style="padding:30px"> Xóa  </h4></a>
+                            </td>
+
+
+                                    }
+                    </tr>
+
+                                        }
+                                    }
+        </tbody>
+        <tfoot>
+
+            <tr>
+                <td colspan="7" class="text-right">
+                    <strong>Tổng Giá : @total.ToString("#,##")</strong>
+                </td>
+            </tr>
+        </tfoot>
+        </table>    
+        </div>
+<h2 style="text-align:center">THÔNG TIN ĐẶT HÀNG</h2>
+    @{
+        ThanhVien kh = (ThanhVien)Session["Thanhvien"];
+    }
+
+<table align="center">
+    @using (Html.BeginForm())
+    {
+        @Html.ValidationSummary(true)
+        <tr style="height:40px">
+            <td> Họ tên khách hàng:</td>
+            <td style="font-weight:bold">  @kh.HoTen </td>
+        </tr>
+        <tr style="height:40px">
+            <td> Địa chỉ:</td>
+            <td style="font-weight:bold">  @kh.DiaChi </td>
+        </tr>
+        <tr style="height:40px">
+            <td> Địện thoại:</td>
+            <td style="font-weight:bold">  @kh.SoDienThoai </td>
+        </tr>
+        <tr style="height:40px">
+            <td> Ngày đặt:</td>
+            <td style="font-weight:bold"> @DateTime.Now.ToShortDateString() </td>
+        </tr>
+        <tr style="height:40px">
+            <td> Ngày giao hàng:</td>
+            <td style="font-weight:bold">
+                <input type="date" name="Ngaygiao" />
+            </td>
+        </tr>
+        <tr style="height:40px">
+            <td></td>
+            <td>
+                <input type="Submit" value="ĐỒNG Ý ĐẶT HÀNG" />
+            </td>
+        </tr>
+    }
+</table>

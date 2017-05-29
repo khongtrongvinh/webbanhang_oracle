@@ -1,0 +1,448 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Luxury Watches A Ecommerce Category Flat Bootstarp Resposive Website Template | Single :: w3layouts</title>
+    <link href="~/Content/css/bootstrap.css" rel="stylesheet" type="text/css" media="all">
+    <!--jQuery(necessary for Bootstrap's JavaScript plugins)-->
+    <script src="~/Content/js/jquery-1.11.0.min.js"></script>
+    <!--Custom-Theme-files-->
+    <!--theme-style-->
+    <link href="~/Content/css/style.css" rel="stylesheet" type="text/css" media="all">
+    <!--//theme-style-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="keywords" content="Luxury Watches Responsive web template, Bootstrap Web Templates, Flat Web Templates, Andriod Compatible web template,
+Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyErricsson, Motorola web design">
+    <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+    <!--start-menu-->
+    <script src="~/Content/js/simpleCart.min.js"> </script>
+    <link href="~/Content/css/memenu.css" rel="stylesheet" type="text/css" media="all">
+    <script type="text/javascript" src="~/Content/js/memenu.js"></script>
+    <script>$(document).ready(function(){$(".memenu").memenu();});</script>
+    <!--dropdown-->
+    <script src="~/Content/js/jquery.easydropdown.js"></script>
+    <link href="~/Content/css/w3.css" rel="stylesheet" />
+    <link href="~/Content/css/animate.css" rel="stylesheet" />
+    <script src="~/Content/js/wow.min.js"></script>
+
+    <script type="text/javascript">
+        $(function() {
+
+            var menu_ul = $('.menu_drop > li > ul'),
+                   menu_a  = $('.menu_drop > li > a');
+
+            menu_ul.hide();
+
+            menu_a.click(function(e) {
+                e.preventDefault();
+                if(!$(this).hasClass('active')) {
+                    menu_a.removeClass('active');
+                    menu_ul.filter(':visible').slideUp('normal');
+                    $(this).addClass('active').next().stop(true,true).slideDown('normal');
+                } else {
+                    $(this).removeClass('active');
+                    $(this).next().stop(true,true).slideUp('normal');
+                }
+            });
+
+        });
+    </script>
+    <script>
+        function AddToCart(MaSP) {
+            $.ajax({
+                type: 'POST',
+                url: '/GioHang/AddToCart',
+                data: { id: MaSP },
+                success: function (data) {
+                    $("#Cart_Amount").html(data.ItemAmount);
+                }
+            });
+        }
+    </script>
+
+    <script>
+        $(function(){
+            $("body").append($("<div></div>").attr("id", "progress"));
+            $("#progress").width((50 + Math.random() * 30) + "%");
+        });
+        $(window).load(function() {
+            $("#progress").width("101%").delay(300).fadeOut(400);
+        });
+    </script>
+
+</head>
+<body>
+    <script>
+        new WOW().init();
+    </script>
+    @Scripts.Render("~/bundles/bootstrap")
+    @*<div class="imagezoom-view" style="position: absolute; left: 453.5px; top: 342.167px; width: 480px; height: 395px; background: rgb(0, 0, 0) none repeat scroll 0% 0%; z-index: 2147483647; overflow: hidden; border: medium none;"><img src="images/s-1.jpg" style="position: absolute; width: 587.125px; height: 847px; top: -129.429px; left: 5.47118e-14px;"></div><div class="imagezoom-view" style="position: absolute; left: 453.5px; top: 342.167px; width: 480px; height: 395px; background: rgb(0, 0, 0) none repeat scroll 0% 0%; z-index: 2147483647; overflow: hidden; border: medium none;"><img src="images/s-1.jpg" style="position: absolute; width: 587.125px; height: 847px; top: -129.429px; left: 5.47118e-14px;"></div><div class="imagezoom-view" style="position: absolute; left: 453.5px; top: 342.167px; width: 480px; height: 395px; background: rgb(0, 0, 0) none repeat scroll 0% 0%; z-index: 2147483647; overflow: hidden; border: medium none;"><img src="images/s-3.jpg" style="position: absolute; width: 587.125px; height: 847px; top: -129.429px; left: 5.47118e-14px;"></div>*@
+    <!--top-header-->
+    <div class="headdings">
+        <div class="navbar navbar-inverse navbar-fixed-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+                <div class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav"></ul>
+                    @Html.Partial("_LoginPartial")
+                </div>
+            </div>
+            <div id="progress"></div>
+        </div>
+        <div class="clearfix"></div>
+    </div>
+    <!--top-header-->
+    <!--start-logo-->
+    <div class="logo">
+
+        <a href="index.html"><h1 class="wow bounceInLeft">Luxury </h1></a>
+    </div>
+    <!--start-logo-->
+    <!--bottom-header-->
+    <div class="header-bottom">
+        <div class="container">
+            <div class="header">
+                @Html.Action("MenuPartial", "Home")
+                @*<div class="col-md-9 header-left">
+                        <div class="top-nav">
+                            <ul class="memenu skyblue">
+                                <li class="showhide" style="display: none;"><span class="title">MENU</span><span class="icon1"></span><span class="icon2"></span></li>
+                                <li class="active" style=""><a href="index.html">Home</a></li>
+                                <li class="grid" style="">
+                                    <a href="#">Men</a>
+                                    <div class="mepanel">
+                                        <div class="row">
+                                            <div class="col1 me-one">
+                                                <h4>Shop</h4>
+                                                <ul>
+                                                    <li><a href="products.html">New Arrivals</a></li>
+                                                    <li><a href="products.html">Blazers</a></li>
+                                                    <li><a href="products.html">Swem Wear</a></li>
+                                                    <li><a href="products.html">Accessories</a></li>
+                                                    <li><a href="products.html">Handbags</a></li>
+                                                    <li><a href="products.html">T-Shirts</a></li>
+                                                    <li><a href="products.html">Watches</a></li>
+                                                    <li><a href="products.html">My Shopping Bag</a></li>
+                                                </ul>
+                                            </div>
+                                            <div class="col1 me-one">
+                                                <h4>Style Zone</h4>
+                                                <ul>
+                                                    <li><a href="products.html">Shoes</a></li>
+                                                    <li><a href="products.html">Watches</a></li>
+                                                    <li><a href="products.html">Brands</a></li>
+                                                    <li><a href="products.html">Coats</a></li>
+                                                    <li><a href="products.html">Accessories</a></li>
+                                                    <li><a href="products.html">Trousers</a></li>
+                                                </ul>
+                                            </div>
+                                            <div class="col1 me-one">
+                                                <h4>Popular Brands</h4>
+                                                <ul>
+                                                    <li><a href="products.html">499 Store</a></li>
+                                                    <li><a href="products.html">Fastrack</a></li>
+                                                    <li><a href="products.html">Casio</a></li>
+                                                    <li><a href="products.html">Fossil</a></li>
+                                                    <li><a href="products.html">Maxima</a></li>
+                                                    <li><a href="products.html">Timex</a></li>
+                                                    <li><a href="products.html">TomTom</a></li>
+                                                    <li><a href="products.html">Titan</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="grid" style="">
+                                    <a href="#">Women</a>
+                                    <div class="mepanel">
+                                        <div class="row">
+                                            <div class="col1 me-one">
+                                                <h4>Shop</h4>
+                                                <ul>
+                                                    <li><a href="products.html">New Arrivals</a></li>
+                                                    <li><a href="products.html">Blazers</a></li>
+                                                    <li><a href="products.html">Swem Wear</a></li>
+                                                    <li><a href="products.html">Accessories</a></li>
+                                                    <li><a href="products.html">Handbags</a></li>
+                                                    <li><a href="products.html">T-Shirts</a></li>
+                                                    <li><a href="products.html">Watches</a></li>
+                                                    <li><a href="products.html">My Shopping Bag</a></li>
+                                                </ul>
+                                            </div>
+                                            <div class="col1 me-one">
+                                                <h4>Style Zone</h4>
+                                                <ul>
+                                                    <li><a href="products.html">Shoes</a></li>
+                                                    <li><a href="products.html">Watches</a></li>
+                                                    <li><a href="products.html">Brands</a></li>
+                                                    <li><a href="products.html">Coats</a></li>
+                                                    <li><a href="products.html">Accessories</a></li>
+                                                    <li><a href="products.html">Trousers</a></li>
+                                                </ul>
+                                            </div>
+                                            <div class="col1 me-one">
+                                                <h4>Popular Brands</h4>
+                                                <ul>
+                                                    <li><a href="products.html">499 Store</a></li>
+                                                    <li><a href="products.html">Fastrack</a></li>
+                                                    <li><a href="products.html">Casio</a></li>
+                                                    <li><a href="products.html">Fossil</a></li>
+                                                    <li><a href="products.html">Maxima</a></li>
+                                                    <li><a href="products.html">Timex</a></li>
+                                                    <li><a href="products.html">TomTom</a></li>
+                                                    <li><a href="products.html">Titan</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="grid" style="">
+                                    <a href="#">Kids</a>
+                                    <div class="mepanel">
+                                        <div class="row">
+                                            <div class="col1 me-one">
+                                                <h4>Shop</h4>
+                                                <ul>
+                                                    <li><a href="products.html">New Arrivals</a></li>
+                                                    <li><a href="products.html">Blazers</a></li>
+                                                    <li><a href="products.html">Swem Wear</a></li>
+                                                    <li><a href="products.html">Accessories</a></li>
+                                                    <li><a href="products.html">Handbags</a></li>
+                                                    <li><a href="products.html">T-Shirts</a></li>
+                                                    <li><a href="products.html">Watches</a></li>
+                                                    <li><a href="products.html">My Shopping Bag</a></li>
+                                                </ul>
+                                            </div>
+                                            <div class="col1 me-one">
+                                                <h4>Style Zone</h4>
+                                                <ul>
+                                                    <li><a href="products.html">Shoes</a></li>
+                                                    <li><a href="products.html">Watches</a></li>
+                                                    <li><a href="products.html">Brands</a></li>
+                                                    <li><a href="products.html">Coats</a></li>
+                                                    <li><a href="products.html">Accessories</a></li>
+                                                    <li><a href="products.html">Trousers</a></li>
+                                                </ul>
+                                            </div>
+                                            <div class="col1 me-one">
+                                                <h4>Popular Brands</h4>
+                                                <ul>
+                                                    <li><a href="products.html">499 Store</a></li>
+                                                    <li><a href="products.html">Fastrack</a></li>
+                                                    <li><a href="products.html">Casio</a></li>
+                                                    <li><a href="products.html">Fossil</a></li>
+                                                    <li><a href="products.html">Maxima</a></li>
+                                                    <li><a href="products.html">Timex</a></li>
+                                                    <li><a href="products.html">TomTom</a></li>
+                                                    <li><a href="products.html">Titan</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="grid" style="">
+                                    <a href="typo.html">Blog</a>
+                                </li>
+                                <li class="grid" style="">
+                                    <a href="contact.html">Contact</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="clearfix"> </div>
+                    </div>*@
+                <div class="col-md-3 header-right">
+                    <div class="search-bar">
+                        @using (Html.BeginForm("KQTimKiem", "TimKiem"))
+                        {
+                            <input type="text" name="sTuKhoa" placeholder="Nhập tên sản  phẩm cần tìm" />
+                            <input value="" type="submit">
+                        }
+                    </div>
+                </div>
+                <div class="clearfix"> </div>
+            </div>
+        </div>
+    </div>
+    <!--bottom-header-->
+    <!--start-breadcrumbs-->
+    <div class="breadcrumbs">
+        <div class="container">
+            <div class="breadcrumbs-main">
+                <ol class="breadcrumb">
+                    <li><a href="index.html">Home</a></li>
+                    <li class="active">Single</li>
+                </ol>
+            </div>
+        </div>
+    </div>
+    <!--end-breadcrumbs-->
+    <!--start-single-->
+    <div class="single contact">
+        <div class="container">
+            <div class="single-main">
+                @RenderBody()
+                <div class="clearfix"> </div>
+            </div>
+        </div>
+    </div>
+    <!--end-single-->
+    <!--information-starts-->
+    <div class="information">
+        <div class="container">
+            <div class="infor-top">
+                <div class="col-md-3 infor-left">
+                    <h3>Theo Dõi Chúng Tôi</h3>
+                    <ul>
+                        <li><a href="#"><span class="fb"></span><h6>Facebook</h6></a></li>
+                        <li><a href="#"><span class="twit"></span><h6>Twitter</h6></a></li>
+                        <li><a href="#"><span class="google"></span><h6>Google+</h6></a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3 infor-left">
+                    <h3>Thông Tin</h3>
+                    <ul>
+                        <li><a href="#"><p>Ðặc biệt</p></a></li>
+                        <li><a href="#"><p>Sản phẩm mới</p></a></li>
+                        <li><a href="#"><p>Cửa hàng chúng tôi</p></a></li>
+                        <li><a href="#"><p>Liên Hệ</p></a></li>
+                        <li><a href="#"><p>Sản phẩm bán chạy</p></a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3 infor-left">
+                    <h3>Tài khoản của tôi</h3>
+                    <ul>
+                        <li><a href="#"><p>Ðăng nhập</p></a></li>
+                        <li><a href="#"><p>Ðăng ký</p></a></li>
+
+                    </ul>
+                </div>
+                <div class="col-md-3 infor-left">
+                    <h3>Thông Tin Cửa Hàng</h3>
+                    <h4>
+                        Tên Công Ty
+                        <span>Luxuxy</span>
+                        Ðịa Chỉ 49 Hùng Vuong, Quyết Thắng, TPHCM
+                    </h4>
+                    <h5>+955 123 4567</h5>
+                    <p><a href="mailto:example@email.com">luxuxyTL@gmail.com</a></p>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+        </div>
+    </div>
+    <!--information-end-->
+    <!--footer-starts-->
+    <div class="footer">
+        <div class="container">
+            <div class="footer-top">
+                <div class="col-md-6 footer-left">
+                    <form>
+                        <input value="Enter Your Email" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Enter Your Email';}" type="text">
+                        <input value="Subscribe" type="submit">
+                    </form>
+                </div>
+                <div class="col-md-6 footer-right">
+                    <p>© 2015 Luxury Watches. All Rights Reserved | Design by  <a href="http://w3layouts.com/" target="_blank">W3layouts</a> </p>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+        </div>
+    </div>
+    <script>
+        window.fbAsyncInit = function() {
+            FB.init({
+                appId      : '2154793004744934',
+                xfbml      : true,
+                version    : 'v2.8'
+            });
+        };
+
+        (function(d, s, id){
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) {return;}
+            js = d.createElement(s); js.id = id;
+            js.src = "//connect.facebook.net/vi_VN/sdk.js";
+            fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));
+    </script>
+    <!--footer-end-->
+    <style>
+        #cfacebook {
+            position: fixed;
+            bottom: 0px;
+            right: 100px;
+            z-index: 999999999999999;
+            width: 250px;
+            height: auto;
+            box-shadow: 6px 6px 6px 10px rgba(0,0,0,0.2);
+            border-top-left-radius: 5px;
+            border-top-right-radius: 5px;
+            overflow: hidden;
+        }
+
+            #cfacebook .fchat {
+                float: left;
+                width: 100%;
+                height: 270px;
+                overflow: hidden;
+                display: none;
+                background-color: #fff;
+            }
+
+                #cfacebook .fchat .fb-page {
+                    margin-top: -130px;
+                    float: left;
+                }
+
+            #cfacebook a.chat_fb {
+                float: left;
+                padding: 0 25px;
+                width: 250px;
+                color: #fff;
+                text-decoration: none;
+                height: 40px;
+                line-height: 40px;
+                text-shadow: 0 1px 0 rgba(0,0,0,0.1);
+                background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAAqCAMAAABFoMFOAAAAWlBMV…8/UxBxQDQuFwlpqgBZBq6+P+unVY1GnDgwqbD2zGz5e1lBdwvGGPE6OgAAAABJRU5ErkJggg==);
+                background-repeat: repeat-x;
+                background-size: auto;
+                background-position: 0 0;
+                background-color: #3a5795;
+                border: 0;
+                border-bottom: 1px solid #133783;
+                z-index: 9999999;
+                margin-right: 12px;
+                font-size: 18px;
+            }
+
+                #cfacebook a.chat_fb:hover {
+                    color: yellow;
+                    text-decoration: none;
+                }
+    </style>
+
+    <div id="fb-root">
+
+        <script>
+            jQuery(document).ready(function () {
+                jQuery(".chat_fb").click(function() {
+                    jQuery('.fchat').toggle('slow');
+                });
+            });
+        </script>
+        <div id="cfacebook">
+            <a href="javascript:;" class="chat_fb" onclick="return:false;"><i class="fa fa-facebook-square"></i> Phản hồi của bạn</a>
+            <div class="fchat">
+                <div class="fb-page" data-tabs="messages" data-href="https://www.facebook.com/Komi-941861872585244/" data-width="250" data-height="400" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true" data-show-posts="false"></div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>

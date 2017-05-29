@@ -1,0 +1,145 @@
+﻿@using WepSiteBanHang.Models;
+@model SANPHAM
+@{
+    ViewBag.Title = "XemChiTiet";
+    Layout = "~/Views/Layout/ProductLayout.cshtml";
+    string strHost = HttpContext.Current.Request.Url.Authority;
+    string strhttp = HttpContext.Current.Request.Url.Scheme; // lấy toàn bộ địa chỉ web bao gồm cả http://...
+
+
+}
+
+
+<div class="col-md-9 single-main-left">    
+        <div class="sngl-top">
+            <div class="col-md-5 single-top-left">
+                <div class="flexslider">
+
+                    <div class="flex-viewport" style="overflow: hidden; position: relative;">
+                        <ul class="slides" style="width: 1000%; transition-duration: 0s; transform: translate3d(-304px, 0px, 0px);">
+                       
+                            <li data-thumb="@strhttp://@strHost/@Url.Content("~/Content/HinhAnhSP/"+Model.HinhAnh)" style="float: left; display: block; width: 304px;" class="">
+                                <div class="thumb-image"> <img src="@Url.Content("~/Content/HinhAnhSP/"+Model.HinhAnh)" data-imagezoom="true" class="img-responsive" alt="" draggable="false"> </div>
+                            </li>
+                            <li data-thumb="@strhttp://@strHost/@Url.Content("~/Content/HinhAnhSP/"+Model.HinhAnh)" style="float: left; display: block; width: 304px;" class="clone" aria-hidden="true">
+                                <div class="thumb-image"> <img src="@Url.Content("~/Content/HinhAnhSP/"+Model.HinhAnh)" data-imagezoom="true" class="img-responsive" alt="" draggable="false"> </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- FlexSlider -->
+                <script src="~/Content/js/imagezoom.js"></script>
+                <script defer src="~/Content/js/jquery.flexslider.js"></script>
+                <link rel="stylesheet" href="~/Content/css/flexslider.css" type="text/css" media="screen">
+                <script>
+            // Can also be used with $(document).ready()
+            $(window).load(function() {
+              $('.flexslider').flexslider({
+                animation: "slide",
+                controlNav: "thumbnails"
+              });
+            });
+                </script>
+            </div>
+            <div class="col-md-7 single-top-right">
+                <div class="single-para simpleCart_shelfItem">
+                    <h2>@Model.TenSP</h2>
+                    <div class="star-on">
+                        <ul class="star-footer">
+                            <a href="#"><i> Lượt xem : <span style="font-weight:bold"> @Model.LuotXem </span></i></a>
+                           
+                        </ul>
+                        <div class="review">
+                            
+                        </div>
+                        <div class="clearfix"> </div>
+                    </div>
+
+                    <h5 class="item_price">Giá : @Model.DonGia.Value.ToString("#,##") VNĐ</h5>
+                    <p>@Html.Raw(Model.MoTa)</p>
+                    <div class="available">
+                        <ul>
+                            <li>
+                                Color
+                                <select>
+                                    <option>Silver</option>
+                                    <option>Black</option>
+                                    <option>Dark Black</option>
+                                    <option>Red</option>
+                                </select>
+                            </li>
+                           
+                            <div class="clearfix"> </div>
+                        </ul>
+                    </div>
+                  
+                    <a style="margin:1% 30% 0;" onclick="AddToCart('@Model.MaSP')" class="btn hvr-radial-in"><strong style="font-size:30px">Thêm Vào Giỏ</strong></a>
+
+                </div>
+            </div>
+            <div class="clearfix"> </div>
+        </div>
+
+        <div class="tabs">
+            <ul class="menu_drop">
+                <li class="item1" style="color:red">
+                    <a ><img src="~/images/arrow.png" alt="">CẤU HÌNH</a>
+                    <ul style="display: none;background-color:white;color:cornflowerblue;padding-left:20px">
+                    @Html.Raw(Model.CauHinh)
+                    </ul>
+                </li>
+                <li class="item2" >
+                    <a href="#"><img src="~/images/arrow.png" alt="">CẢM NHẬN CỦA KHÁCH HÀNG</a>
+                    <div class="fb-comments" data-href="" data-width="800" data-numposts="5" style="display: none;background-color:white;color:cornflowerblue;padding-left:20px"></div>
+               
+                </li>
+                
+            </ul>
+        </div>
+
+        <div class="latestproducts">
+            <div class="product-one">
+                @Html.Action("SanPhamLienQuan","SanPham")
+                @*<div class="col-md-4 product-left p-left">
+                    <div class="product-main simpleCart_shelfItem">
+                        <a href="single.html" class="mask"><img class="img-responsive zoom-img" src="images/p-1.png" alt=""></a>
+                        <div class="product-bottom">
+                            <h3>Smart Watches</h3>
+                            <p>Explore Now</p>
+                            <h4><a class="item_add" href="#"><i></i></a> <span class=" item_price">$ 329</span></h4>
+                        </div>
+                        <div class="srch">
+                            <span>-50%</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 product-left p-left">
+                    <div class="product-main simpleCart_shelfItem">
+                        <a href="single.html" class="mask"><img class="img-responsive zoom-img" src="images/p-2.png" alt=""></a>
+                        <div class="product-bottom">
+                            <h3>Smart Watches</h3>
+                            <p>Explore Now</p>
+                            <h4><a class="item_add" href="#"><i></i></a> <span class=" item_price">$ 329</span></h4>
+                        </div>
+                        <div class="srch">
+                            <span>-50%</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 product-left p-left">
+                    <div class="product-main simpleCart_shelfItem">
+                        <a href="single.html" class="mask"><img class="img-responsive zoom-img" src="images/p-3.png" alt=""></a>
+                        <div class="product-bottom">
+                            <h3>Smart Watches</h3>
+                            <p>Explore Now</p>
+                            <h4><a class="item_add" href="#"><i></i></a> <span class=" item_price">$ 329</span></h4>
+                        </div>
+                        <div class="srch">
+                            <span>-50%</span>
+                        </div>
+                    </div>
+                </div>*@
+                <div class="clearfix"></div>
+            </div>
+        </div>
+    </div>

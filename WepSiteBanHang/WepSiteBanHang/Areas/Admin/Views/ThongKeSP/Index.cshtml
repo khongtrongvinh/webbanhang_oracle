@@ -1,0 +1,71 @@
+﻿@using WepSiteBanHang.Models;
+@model IEnumerable<ChiTietDonDatHang>
+@{
+    dbQuanLyEntities db = new dbQuanLyEntities();
+    ViewBag.Title = "TKSP";
+    Layout = "~/Areas/Admin/Views/LayoutAD/AdinLayout.cshtml";
+    double total = 0;
+    var aa = (from ct in db.ChiTietDonDatHangs
+              join sp in db.SanPhams on ct.MaSP equals sp.MaSP
+              group ct by new { ct.MaSP } into c
+              orderby c.Key
+              select new
+              {
+                  MaSP = c.Key.MaSP,
+                  SoLuong = c.Sum(n => n.SoLuong),
+              }).ToList();
+    var xeph = 0;
+
+}
+<div class="table-responsive">
+    <table class="table table-hover table-striped table-bordered">
+        <thead>
+            <tr style="background:linear-gradient(#16780b,#81c68f);">
+                <th style="text-align:center;color:#ffffff;font-size:20px">
+                    Xếp Hạng
+                </th>
+                <th style="text-align:center">
+                    <span style="color:#ffffff;font-size:20px"> Tên Sản Phẩm </span>
+                </th>
+                <th style="text-align:center;color:#ffffff;font-size:20px">
+                    Số Lượng
+                </th>
+                <th style="text-align:center;color:#ffffff;font-size:20px">
+                    Tổng Đơn giá
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in aa.OrderByDescending(n => n.SoLuong))
+            {
+
+                xeph++;
+                var bb = db.ChiTietDonDatHangs.First(n => n.MaSP == item.MaSP);
+
+                <tr>
+                    <td style="text-align:center;color:#16780b;font-size:20px">
+                        @xeph
+                    </td>
+                    <td style="text-align:center;color:#16780b;font-size:20px">
+                        @bb.SanPham.TenSP
+                    </td>
+                    <td style="text-align:center;color:#16780b;font-size:20px">
+                        @item.SoLuong
+                    </td>
+                    <td style="text-align:center;color:#16780b;font-size:20px">
+                        @{
+
+                            double tong = (double)(item.SoLuong * bb.DonGia);
+
+                        }
+                        @tong
+                    </td>
+
+                </tr>
+
+
+                            }
+        </tbody>
+
+    </table>
+</div>

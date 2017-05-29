@@ -1,0 +1,99 @@
+﻿@using WepSiteBanHang.Models;
+
+@{
+    ViewBag.Title = "Giohang";
+    Layout = "~/Views/Layout/ProductLayout.cshtml";
+}
+<h2>Giỏ hàng của bạn</h2>
+<div class="table-responsive">
+    <table class="table table-hover table-striped table-bordered">
+        <thead>
+            <tr>
+                
+                <th style="text-align:center">
+                    Tên Sản Phẩm 
+                </th>
+                <th style="text-align:center">
+                    Đơn Giá
+                </th>
+                <th style="text-align:center">
+                    Hình Ảnh
+                </th>
+    
+                <th style="text-align:center">
+                    Số Lượng
+                </th>
+                <th style="text-align:center" >
+                    Tổng Giá
+                </th>
+             
+            </tr>
+        </thead>
+        @{
+            double total = 0;
+            List<CartItem> listCart = (List<CartItem>)Session["ShoppingCart"];
+        }
+        <tbody>
+        @if (listCart != null)
+        {
+            foreach (var item in (List<CartItem>)Session["ShoppingCart"])
+            {
+               
+                <tr style="text-align:center">
+                    <td  >
+                        @item.productOrder.TenSP
+                    </td>
+                    <td style="margin:100px">
+                        <strong style="color:darksalmon"> @item.productOrder.DonGia.Value.ToString("#,##") VND </strong> 
+                    </td>
+                    <td>
+                        
+                        <img src="@Url.Content("~/Content/HinhAnhSP/"+item.productOrder.HinhAnh)" alt="cover page"
+                             width="210" />
+                    </td>
+                    @using (Html.BeginForm("Update", "Giohang", new { id = item.productOrder.MaSP }))
+                    {
+                    <td style="text-align:center">
+                        <i>
+                            <input style="overflow:unset;margin:10px" type="text" value="@item.Quality.ToString("#,##")"  id="Quality" name="Quality" class="text-center" />
+                            <input  style="margin-top:2.5%"  type="submit" value="Cập nhật" class="btn btn-warning" id="Update" />
+                        </i>
+                    </td>
+                    <td>
+                        @{
+                            double value = (double)item.productOrder.DonGia * item.Quality;
+                            total += value;
+                        }
+                        @value.ToString("#,##")
+                    </td>
+                    <td>
+                        <a href="@Url.Action("XoaGiohang","Giohang",new { id = item.productOrder.MaSP } )"><h4 style="padding:30px"> Xóa  </h4></a>
+                    </td>
+
+
+                            }
+                </tr>
+                                
+                            }
+                            }
+        </tbody>
+        <tfoot>
+
+            <tr>
+                <td colspan="7" class="text-right">
+                    <strong>Tổng Giá : @total.ToString("#,##")</strong>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="7" class="text-center" >
+                    <a href="@Url.Action("XoaTatcaGiohang","Giohang")" class="btn btn-group-lg"><strong> Xóa tất Cả </strong></a>
+                </td>
+            </tr>
+        </tfoot>
+    </table>
+    <p class="pull-right">
+        <a class="btn btn-info" value="Tiếp Tục Mua" href="@Url.Action("Index","Home")">Tiếp Tục Mua</a> &nbsp;
+        <a class="btn btn-danger" href="@Url.Action("Dathang","Giohang")">Thanh Toán</a>
+    </p>
+</div>
+

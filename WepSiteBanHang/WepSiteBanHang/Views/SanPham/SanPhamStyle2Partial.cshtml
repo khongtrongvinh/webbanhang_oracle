@@ -1,0 +1,19 @@
+﻿@using WepSiteBanHang.Models;
+@model IEnumerable<SANPHAM>
+
+
+<div class="about-top grid-1">
+    @foreach (var item in Model.Take(3))
+    {
+        <div class="col-md-4 about-left wow flipInY">
+            <figure class="effect-bubba">
+                <img class="img-responsive" src="@Url.Content("~/Content/HinhAnhSP/"+item.HinhAnh)" style="" alt="">
+                <figcaption>
+                    <h2>@item.TenSP</h2>
+                    <h4><a class="item_add" href="#"><i>Giá</i></a> <span class="item_price">@item.DonGia.Value.ToString("#,##") VNĐ</span></h4>
+                </figcaption>
+            </figure>
+        </div>
+    }
+    <div class="clearfix"></div>
+</div>
